@@ -59,7 +59,7 @@ export default function Section1() {
                 <path d="M2 12L12 17L22 12" stroke="#3396D3" strokeWidth="2" />
               </svg>
             </div>
-            <div className={styles.statNumber}>7,000,000+</div>
+            <div className={styles.statNumber}>15+</div>
             <div className={styles.statDescription}>
               {t('section1.stats.deliveries')}
             </div>
@@ -79,7 +79,7 @@ export default function Section1() {
                 <path d="M9 17H15" stroke="#3396D3" strokeWidth="2" />
               </svg>
             </div>
-            <div className={styles.statNumber}>12</div>
+            <div className={styles.statNumber}>8</div>
             <div className={styles.statDescription}>
               {t('section1.stats.centers')}
             </div>
@@ -98,7 +98,7 @@ export default function Section1() {
                 <path d="M12 6V12L16 14" stroke="#3396D3" strokeWidth="2" />
               </svg>
             </div>
-            <div className={styles.statNumber}>99.4%</div>
+            <div className={styles.statNumber}>95%</div>
             <div className={styles.statDescription}>{t('section1.stats.onTime')}</div>
           </div>
 
@@ -122,7 +122,7 @@ export default function Section1() {
                 <circle cx="12" cy="12" r="2" fill="#3396D3" />
               </svg>
             </div>
-            <div className={styles.statNumber}>99.9%</div>
+            <div className={styles.statNumber}>100%</div>
             <div className={styles.statDescription}>{t('section1.stats.accuracy')}</div>
           </div>
         </div>

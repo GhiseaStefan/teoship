@@ -12,13 +12,13 @@ export const translations = {
       button: "Afla mai multe..."
     },
     section1: {
-      title: "Livrarea eficienta catre 315 milioane de cumparatori online din Europa",
-      subtitle: "Peste 20 curieri. Peste 12 centre de fulfillment. O solutie de fulfillment fara cusaturi.",
+      title: "Servicii de fulfillment moderne pentru afacerile tale online",
+      subtitle: "Solutii personalizate de fulfillment pentru cresterea afacerii tale. Tehnologie avansata si procese optimizate.",
       stats: {
-        deliveries: "produse livrate anual din centrele noastre de logistica",
-        centers: "centre de fulfillment în UE și UK",
-        onTime: "rata de livrare la timp",
-        accuracy: "acuratetea fulfillment-ului"
+        deliveries: "tehnologii integrate",
+        centers: "servicii disponibile",
+        onTime: "rata de satisfactie",
+        accuracy: "nivel de profesionalism"
       }
     },
     section2: {
@@ -109,9 +109,9 @@ export const translations = {
         message: "Mesaj",
         submit: "Trimiteti",
         placeholder: "Spune-ne cu ce informatii te putem ajuta...",
-        disclaimer: "Prin trimiterea acestui formular, îmi dau acordul pentru prelucrarea datelor personale conform Politicii de Confidențialitate.",
+        disclaimer: "Prin trimiterea acestui formular, imi dau acordul pentru prelucrarea datelor personale conform Politicii de Confidentialitate.",
         privacyPolicy: "aici",
-        checkbox: "Sunt de acord cu prelucrarea datelor mele personale pentru scopuri de marketing și comunicare comercială."
+        checkbox: "Sunt de acord cu prelucrarea datelor mele personale pentru scopuri de marketing si comunicare comerciala."
       }
     },
     footer: {
@@ -164,13 +164,13 @@ export const translations = {
       button: "Learn more..."
     },
     section1: {
-      title: "Efficient delivery to 315 million online buyers in Europe",
-      subtitle: "Over 20 couriers. Over 12 fulfillment centers. A seamless fulfillment solution.",
+      title: "Modern fulfillment services for your online business",
+      subtitle: "Personalized fulfillment solutions for your business growth. Advanced technology and optimized processes.",
       stats: {
-        deliveries: "products delivered annually from our logistics centers",
-        centers: "fulfillment centers in EU and UK",
-        onTime: "on-time delivery rate",
-        accuracy: "fulfillment accuracy"
+        deliveries: "integrated technologies",
+        centers: "available services",
+        onTime: "satisfaction rate",
+        accuracy: "professionalism level"
       }
     },
     section2: {
