@@ -26,7 +26,7 @@ export default function Section5() {
                 <div className={styles.imageColumn}>
                     <div className={styles.imageContainer}>
                         <img 
-                            src="/images/functionare.jpg" 
+                            src="/images/functionare2.png" 
                             alt="Centru de fulfillment depozit" 
                             className={styles.warehouseImage}
                         />

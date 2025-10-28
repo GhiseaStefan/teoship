@@ -28,7 +28,7 @@ export default function Section3() {
                 <div className={styles.imageColumn}>
                     <div className={styles.imageContainer}>
                         <img 
-                            src="/images/functionare.jpg" 
+                            src="/images/functionare.png" 
                             alt="Centru de fulfillment depozit" 
                             className={styles.warehouseImage}
                         />
