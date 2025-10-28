@@ -1,0 +1,154 @@
+.footer {
+    background-color: #f8f9fa;
+    padding: 60px 0 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.mainContent {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.logoSection {
+    grid-column: 1;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logoIcon {
+    background: linear-gradient(135deg, #1e40af, #3b82f6);
+    color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(30, 64, 175, 0.3);
+}
+
+.shipIcon {
+    font-size: 20px;
+}
+
+.logoText {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.section {
+    grid-column: auto;
+}
+
+.services p {
+    font-size: 14px;
+    color: black;
+    margin: 0 0 5px 0;
+    line-height: 1.4;
+}
+
+.sectionTitle {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.address p,
+.contact p,
+.schedule p {
+    font-size: 14px;
+    color: black;
+    margin: 0 0 5px 0;
+    line-height: 1.4;
+}
+
+.scheduleTitle {
+    font-weight: bold !important;
+    margin-top: 15px !important;
+}
+
+.followUsSection {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.followUsLine {
+    width: 2px;
+    height: 60px;
+    background-color: black;
+}
+
+.followUsText {
+    font-size: 14px;
+    color: black;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+}
+
+.bottomSection {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #e5e7eb;
+    padding-top: 20px;
+}
+
+.copyright {
+    font-size: 12px;
+    color: black;
+}
+
+.legalLinks {
+    font-size: 12px;
+    color: black;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.separator {
+    margin: 0 5px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .mainContent {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .logoSection {
+        grid-column: 1;
+        text-align: center;
+    }
+    
+    .bottomSection {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+}

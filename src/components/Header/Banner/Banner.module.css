@@ -1,0 +1,86 @@
+.banner {
+    height: 100vh;
+    background-image: url('../../../public/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.bannerContent {
+    position: absolute;
+    left: 12rem;
+    bottom: 16rem;
+    z-index: 2;
+    text-align: left;
+    color: white;
+    max-width: 600px;
+}
+
+.bannerTitle {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+.bannerSubtitle {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+    line-height: 1.5;
+}
+
+.bannerButton {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.bannerButton:hover {
+    transform: translateY(-2px);
+}
+
+.bannerButton::after {
+    content: '→';
+    font-size: 1.1rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .bannerTitle {
+        font-size: 2.5rem;
+    }
+    
+    .bannerSubtitle {
+        font-size: 1.1rem;
+    }
+    
+    .bannerButton {
+        padding: 0.875rem 1.5rem;
+        font-size: 1rem;
+    }
+    
+    .bannerContent {
+        padding: 0 1rem;
+    }
+}

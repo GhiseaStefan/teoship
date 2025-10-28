@@ -1,0 +1,115 @@
+.section5 {
+    position: relative;
+    background-color: white;
+    padding: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    gap: 0;
+    position: relative;
+}
+
+.textColumn {
+    width: 810px; /* Fixed width for red block */
+    position: relative;
+    z-index: 2;
+}
+
+.redBlock {
+    background-color: #dc2626;
+    padding: 50px 40px;
+    width: 100%;
+    height: 510px; /* Fixed height for red block */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin-top: -64px; /* Centers the overflow equally top and bottom */
+}
+
+.smallHeading {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+    opacity: 0.9;
+}
+
+.mainTitle {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 30px;
+    color: white;
+    max-width: 90%;
+}
+
+.bodyText {
+    font-size: 16px;
+    line-height: 1.7;
+    color: white;
+    opacity: 0.95;
+    max-width: 95%;
+}
+
+.bodyText p {
+    margin: 0 0 18px 0;
+    text-align: left;
+}
+
+.bodyText p:last-child {
+    margin-bottom: 0;
+}
+
+.imageColumn {
+    width: calc(100% - 810px); /* Full width minus red block width */
+    position: relative;
+}
+
+.imageContainer {
+    width: 100%;
+    height: 382px; /* User specified height */
+    overflow: hidden;
+}
+
+.warehouseImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    
+    .textColumn {
+        width: 100%;
+    }
+    
+    .imageColumn {
+        width: 100%;
+    }
+    
+    .redBlock {
+        margin-top: 0;
+        min-height: auto;
+    }
+    
+    .imageContainer {
+        height: 300px;
+    }
+    
+    .mainHeading {
+        font-size: 20px;
+    }
+}

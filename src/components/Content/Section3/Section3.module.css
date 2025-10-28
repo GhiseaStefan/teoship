@@ -1,0 +1,147 @@
+.section3 {
+    position: relative;
+    background-color: white;
+    padding: 0;
+    padding-top: 50px;
+    margin-top: -50px; /* Overlap with previous section */
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    gap: 0;
+    position: relative;
+}
+
+.imageColumn {
+    width: calc(100% - 810px); /* Full width minus red block width */
+    position: relative;
+}
+
+.imageContainer {
+    width: 100%;
+    height: 382px; /* User specified height */
+    overflow: hidden;
+}
+
+.warehouseImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.textColumn {
+    width: 810px; /* Fixed width for red block */
+    position: relative;
+    z-index: 2;
+}
+
+.redBlock {
+    background-color: #dc2626;
+    padding: 40px 30px;
+    width: 100%;
+    height: 510px; /* Fixed height for red block */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    margin-top: -64px; /* Centers the overflow equally top and bottom */
+}
+
+.mainHeading {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 30px;
+    color: white;
+}
+
+
+.questionItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.questionItem:hover {
+    opacity: 0.8;
+}
+
+.expandIcon {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: white;
+}
+
+.questionText {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+.expandedAnswer {
+    font-size: 14px;
+    line-height: 1.6;
+    color: white;
+    opacity: 0.9;
+    margin-top: 10px;
+    margin-left: 30px;
+    padding: 15px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.socialSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: auto;
+}
+
+.socialIcons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.socialIcon {
+    font-size: 14px;
+    color: white;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.socialIcon:hover {
+    opacity: 1;
+}
+
+.followText {
+    font-size: 12px;
+    color: white;
+    opacity: 0.7;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    
+    .redBlock {
+        margin-top: 0;
+        min-height: auto;
+    }
+    
+    .imageContainer {
+        height: 300px;
+    }
+    
+    .mainHeading {
+        font-size: 20px;
+    }
+}

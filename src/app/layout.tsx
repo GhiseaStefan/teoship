@@ -1,4 +1,6 @@
-import styles from '../components/MyStyles.module.css'
+import './globals.css'
+import Footer from '../components/Footer/Footer'
+import Navbar from '../components/Header/Navbar/Navbar'
 
 export default function RootLayout({
     children,
@@ -7,14 +9,16 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-            <body>
-                <div className={styles.header}>
-                    <p>Header</p>
-                </div>
-                {children}
-                <div className={styles.footer}>
-                    <p>Footer</p>
-                </div>
+            <body style={{ 
+                display: 'flex', 
+                flexDirection: 'column', 
+                minHeight: '100vh' 
+            }}>
+                <Navbar />
+                <main style={{ flex: 1 }}>
+                    {children}
+                </main>
+                <Footer />
             </body>
         </html>
     )
