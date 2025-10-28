@@ -41,8 +41,13 @@ export default function Navbar() {
                     {/* Logo */}
                     <div className={styles.navbarLogo}>
                         <a href="/" className={styles.logoLink}>
-                            <span>Teoship</span>
-                            <img src="/images/logo.png" alt="Teoship" />
+                            <div className={styles.logoContainer}>
+                                <div className={styles.logoTextContainer}>
+                                    <span>Teoship</span>
+                                    <span className={styles.fulfillmentText}>Fulfillment</span>
+                                </div>
+                                <img src="/images/logo.png" alt="Teoship" />
+                            </div>
                         </a>
                     </div>
 
