@@ -51,14 +51,16 @@
 }
 
 .title {
+    font-family: var(--font-secondary);
     font-size: 2.5rem;
-    font-weight: 700;
+    font-weight: var(--font-weight-bold);
     color: #1f2937;
     margin-bottom: 1rem;
     line-height: 1.2;
 }
 
 .subtitle {
+    font-family: var(--font-primary);
     font-size: 1.125rem;
     color: #6b7280;
     margin-bottom: 3rem;
@@ -85,14 +87,16 @@
 }
 
 .statNumber {
+    font-family: var(--font-secondary);
     font-size: 3rem;
-    font-weight: 700;
+    font-weight: var(--font-weight-bold);
     color: #1f2937;
     margin-bottom: 0.5rem;
     line-height: 1;
 }
 
 .statDescription {
+    font-family: var(--font-primary);
     font-size: 0.875rem;
     color: #3396D3;
     line-height: 1.4;

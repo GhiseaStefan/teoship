@@ -1,7 +1,7 @@
 .footer {
     background-color: #FFF0CE;
     padding: 60px 0 20px 0;
-    font-family: Arial, sans-serif;
+    font-family: var(--font-primary);
 }
 
 .mainContent {
@@ -48,8 +48,9 @@
 }
 
 .logoText {
+    font-family: var(--font-secondary);
     font-size: 20px;
-    font-weight: bold;
+    font-weight: var(--font-weight-bold);
     color: black;
 }
 
@@ -65,8 +66,9 @@
 }
 
 .sectionTitle {
+    font-family: var(--font-secondary);
     font-size: 16px;
-    font-weight: bold;
+    font-weight: var(--font-weight-semibold);
     color: black;
     margin-bottom: 15px;
 }
@@ -81,7 +83,8 @@
 }
 
 .scheduleTitle {
-    font-weight: bold !important;
+    font-family: var(--font-secondary);
+    font-weight: var(--font-weight-semibold) !important;
     margin-top: 15px !important;
 }
 

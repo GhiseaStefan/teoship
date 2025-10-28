@@ -33,8 +33,9 @@
 }
 
 .smallHeading {
+    font-family: var(--font-primary);
     font-size: 12px;
-    font-weight: 600;
+    font-weight: var(--font-weight-semibold);
     margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -43,8 +44,9 @@
 }
 
 .mainTitle {
+    font-family: var(--font-secondary);
     font-size: 32px;
-    font-weight: 800;
+    font-weight: var(--font-weight-extrabold);
     line-height: 1.1;
     margin-bottom: 30px;
     color: white;
@@ -52,6 +54,7 @@
 }
 
 .bodyText {
+    font-family: var(--font-primary);
     font-size: 16px;
     line-height: 1.7;
     color: white;
