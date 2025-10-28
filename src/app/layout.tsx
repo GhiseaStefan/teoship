@@ -1,6 +1,7 @@
 import './globals.css'
 import Footer from '../components/Footer/Footer'
 import Navbar from '../components/Header/Navbar/Navbar'
+import ScrollUpButton from '../components/ScrollUpButton/ScrollUpButton'
 import { LocaleProvider } from '../lib/LocaleContext'
 
 export default function RootLayout({
@@ -21,6 +22,7 @@ export default function RootLayout({
                         {children}
                     </main>
                     <Footer />
+                    <ScrollUpButton />
                 </LocaleProvider>
             </body>
         </html>
