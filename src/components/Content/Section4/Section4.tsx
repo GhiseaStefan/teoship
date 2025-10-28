@@ -12,7 +12,7 @@ export default function Section4() {
                 {/* Row 1 */}
                 <div className={styles.featureBlock}>
                     <div className={styles.iconContainer}>
-                        <div className={styles.icon}>🌍</div>
+                        <div className={styles.icon}>€</div>
                     </div>
                     <h3 className={styles.title}>{t('section4.features.crossBorder.title')}</h3>
                     <p className={styles.description}>{t('section4.features.crossBorder.description')}</p>

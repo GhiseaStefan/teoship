@@ -62,8 +62,8 @@ export const translations = {
     section4: {
       features: {
         crossBorder: {
-          title: "Vanzari transfrontaliere",
-          description: "Solutia noastra de fulfillment transfrontalier iti permite sa vinzi in toata Europa cu usurinta, asigurand livrarea la timp si sigura a produselor tale catre clienti."
+          title: "Cost fix",
+          description: "Cost fix transparent de 1.55 Euro pentru comenzile standard, fara surprize sau costuri ascunse. Pretul ramane constant indiferent de volumul comenzilor."
         },
         scalable: {
           title: "Tarifare scalabila",
@@ -214,8 +214,8 @@ export const translations = {
     section4: {
       features: {
         crossBorder: {
-          title: "Cross-border sales",
-          description: "Our cross-border fulfillment solution allows you to sell throughout Europe with ease, ensuring timely and secure delivery of your products to customers."
+          title: "Fixed cost",
+          description: "Transparent fixed cost of 1.55 Euro for standard orders, with no surprises or hidden fees. The price remains constant regardless of order volume."
         },
         scalable: {
           title: "Scalable pricing",
