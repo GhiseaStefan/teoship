@@ -67,20 +67,54 @@
 
 /* Responsive design */
 @media (max-width: 768px) {
+    .banner {
+        height: 100vh;
+    }
+
+    .bannerContent {
+        left: 2rem;
+        bottom: 8rem;
+        max-width: calc(100% - 4rem);
+        padding: 0;
+    }
+
     .bannerTitle {
         font-size: 2.5rem;
+        margin-bottom: 0.75rem;
     }
     
     .bannerSubtitle {
         font-size: 1.1rem;
+        margin-bottom: 1.5rem;
     }
     
     .bannerButton {
-        padding: 0.875rem 1.5rem;
-        font-size: 1rem;
+        padding: 0.75rem 1.25rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .bannerContent {
+        left: 1rem;
+        bottom: 6rem;
+        max-width: calc(100% - 2rem);
+    }
+
+    .bannerTitle {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+        line-height: 1.1;
     }
     
-    .bannerContent {
-        padding: 0 1rem;
+    .bannerSubtitle {
+        font-size: 1rem;
+        margin-bottom: 1.25rem;
+        line-height: 1.4;
+    }
+    
+    .bannerButton {
+        padding: 0.625rem 1rem;
+        font-size: 0.85rem;
     }
 }

@@ -134,3 +134,138 @@
 .navbar.scrolled .langButton.active {
     color: white;
 }
+
+.hamburger {
+    display: none;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0 1rem;
+        height: 60px;
+        min-height: 60px;
+    }
+
+    .navbarLogo {
+        font-size: 1.2rem;
+        max-height: 50px;
+    }
+
+    .logoLink img {
+        height: 40px;
+        max-height: 40px;
+        max-width: 80px;
+    }
+
+    .navbarMenu {
+        position: fixed;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background: #FFF0CE;
+        backdrop-filter: blur(10px);
+        border-bottom: 1px solid rgba(229, 231, 235, 0.5);
+        flex-direction: column;
+        gap: 0;
+        padding: 1rem;
+        transform: translateY(-100%);
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+        z-index: 999;
+    }
+
+    .navbarMenu.open {
+        transform: translateY(0);
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .navbarLink {
+        color: #1f2937;
+        padding: 0.75rem 0;
+        border-bottom: 1px solid rgba(31, 41, 55, 0.1);
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbarLink:last-child {
+        border-bottom: none;
+    }
+
+    .navbarLink:hover {
+        background: rgba(31, 41, 55, 0.05);
+        border-radius: 0.25rem;
+    }
+
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        cursor: pointer;
+        padding: 0.5rem;
+        margin-right: 1rem;
+    }
+
+    .hamburgerLine {
+        width: 25px;
+        height: 3px;
+        background: white;
+        border-radius: 2px;
+        transition: all 0.3s ease;
+    }
+
+    .navbar.scrolled .hamburgerLine {
+        background: #1f2937;
+    }
+
+    .hamburger.open .hamburgerLine:nth-child(1) {
+        transform: rotate(45deg) translate(6px, 6px);
+    }
+
+    .hamburger.open .hamburgerLine:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.open .hamburgerLine:nth-child(3) {
+        transform: rotate(-45deg) translate(6px, -6px);
+    }
+
+    .languageSwitcher {
+        gap: 0.25rem;
+    }
+
+    .langButton {
+        padding: 0.2rem 0.4rem;
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        padding: 0 0.5rem;
+        height: 50px;
+        min-height: 50px;
+    }
+
+    .navbarLogo {
+        font-size: 1rem;
+        max-height: 40px;
+    }
+
+    .logoLink img {
+        height: 35px;
+        max-height: 35px;
+        max-width: 70px;
+    }
+
+    .languageSwitcher {
+        gap: 0.2rem;
+    }
+
+    .langButton {
+        padding: 0.15rem 0.3rem;
+        font-size: 0.65rem;
+    }
+}

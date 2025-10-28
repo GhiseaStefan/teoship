@@ -101,12 +101,32 @@
 
 /* Responsive design */
 @media (max-width: 768px) {
+    .logoContainer {
+        height: 100px;
+    }
+
+    .logoItem {
+        margin-right: 2rem;
+    }
+
+    .logoItem img {
+        width: 80px;
+        height: 40px;
+    }
+
+    .text {
+        height: auto;
+        padding: 3rem 1.5rem;
+    }
+
     .title {
         font-size: 2rem;
+        margin-bottom: 0.75rem;
     }
     
     .subtitle {
         font-size: 1rem;
+        margin-bottom: 2rem;
     }
     
     .statsGrid {
@@ -117,11 +137,52 @@
     .statNumber {
         font-size: 2.5rem;
     }
+
+    .statDescription {
+        font-size: 0.8rem;
+        max-width: 150px;
+    }
 }
 
 @media (max-width: 480px) {
+    .logoContainer {
+        height: 80px;
+    }
+
+    .logoItem {
+        margin-right: 1.5rem;
+    }
+
+    .logoItem img {
+        width: 60px;
+        height: 30px;
+    }
+
+    .text {
+        padding: 2rem 1rem;
+    }
+
+    .title {
+        font-size: 1.75rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .subtitle {
+        font-size: 0.9rem;
+        margin-bottom: 1.5rem;
+    }
+
     .statsGrid {
         grid-template-columns: 1fr;
         gap: 1rem;
+    }
+
+    .statNumber {
+        font-size: 2rem;
+    }
+
+    .statDescription {
+        font-size: 0.75rem;
+        max-width: 200px;
     }
 }

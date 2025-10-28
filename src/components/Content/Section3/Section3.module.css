@@ -128,13 +128,28 @@
 
 /* Responsive design */
 @media (max-width: 768px) {
+    .section3 {
+        padding-top: 30px;
+        margin-top: -30px;
+    }
+
     .container {
         flex-direction: column;
+    }
+
+    .imageColumn {
+        width: 100%;
+    }
+    
+    .textColumn {
+        width: 100%;
     }
     
     .redBlock {
         margin-top: 0;
         min-height: auto;
+        height: auto;
+        padding: 30px 20px;
     }
     
     .imageContainer {
@@ -143,5 +158,77 @@
     
     .mainHeading {
         font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .questionItem {
+        margin-bottom: 15px;
+    }
+
+    .questionText {
+        font-size: 15px;
+    }
+
+    .expandedAnswer {
+        font-size: 13px;
+        margin-left: 25px;
+        padding: 12px 0;
+    }
+
+    .socialSection {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .section3 {
+        padding-top: 20px;
+        margin-top: -20px;
+    }
+
+    .redBlock {
+        padding: 25px 15px;
+    }
+    
+    .imageContainer {
+        height: 250px;
+    }
+    
+    .mainHeading {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .questionItem {
+        margin-bottom: 12px;
+    }
+
+    .expandIcon {
+        font-size: 18px;
+        margin-right: 8px;
+    }
+
+    .questionText {
+        font-size: 14px;
+    }
+
+    .expandedAnswer {
+        font-size: 12px;
+        margin-left: 20px;
+        padding: 10px 0;
+        line-height: 1.5;
+    }
+
+    .socialIcons {
+        gap: 12px;
+        margin-bottom: 8px;
+    }
+
+    .socialIcon {
+        font-size: 13px;
+    }
+
+    .followText {
+        font-size: 11px;
     }
 }

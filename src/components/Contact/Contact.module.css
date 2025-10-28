@@ -184,6 +184,15 @@
 
 /* Responsive design */
 @media (max-width: 768px) {
+    .contactContainer {
+        padding: 1.5rem;
+        min-height: calc(100vh - 120px);
+    }
+
+    .contactHeader {
+        margin-bottom: 2rem;
+    }
+
     .contactContent {
         grid-template-columns: 1fr;
         gap: 2rem;
@@ -196,8 +205,79 @@
     .title {
         font-size: 2rem;
     }
-    
+
+    .leftTitle {
+        font-size: 1.25rem;
+    }
+
+    .leftDescription {
+        font-size: 0.9rem;
+    }
+
+    .contactForm {
+        gap: 1.25rem;
+    }
+
+    .input, .textarea {
+        padding: 0.625rem;
+        font-size: 0.9rem;
+    }
+
+    .textarea {
+        min-height: 100px;
+    }
+
+    .submitButton {
+        padding: 0.75rem 1.5rem;
+        font-size: 0.9rem;
+        align-self: stretch;
+    }
+}
+
+@media (max-width: 480px) {
     .contactContainer {
         padding: 1rem;
+    }
+
+    .contactHeader {
+        margin-bottom: 1.5rem;
+    }
+    
+    .title {
+        font-size: 1.75rem;
+    }
+
+    .leftTitle {
+        font-size: 1.125rem;
+    }
+
+    .leftDescription {
+        font-size: 0.85rem;
+    }
+
+    .contactForm {
+        gap: 1rem;
+    }
+
+    .input, .textarea {
+        padding: 0.5rem;
+        font-size: 0.85rem;
+    }
+
+    .textarea {
+        min-height: 80px;
+    }
+
+    .submitButton {
+        padding: 0.625rem 1.25rem;
+        font-size: 0.85rem;
+    }
+
+    .disclaimerText {
+        font-size: 0.8rem;
+    }
+
+    .checkboxLabel {
+        font-size: 0.8rem;
     }
 }

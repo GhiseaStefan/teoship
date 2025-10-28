@@ -7,6 +7,7 @@ import styles from './Navbar.module.css';
 
 export default function Navbar() {
     const [isScrolled, setIsScrolled] = useState(false);
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const pathname = usePathname();
     const isRootPage = pathname === '/';
     const { t, locale, changeLanguage } = useTranslation();
@@ -25,6 +26,14 @@ export default function Navbar() {
     // Apply scrolled style if scrolled on root page OR on any non-root page
     const shouldUseScrolledStyle = isRootPage ? isScrolled : true;
 
+    const toggleMobileMenu = () => {
+        setIsMobileMenuOpen(!isMobileMenuOpen);
+    };
+
+    const closeMobileMenu = () => {
+        setIsMobileMenuOpen(false);
+    };
+
     return (
         <div style={{ marginTop: isRootPage ? '0' : '80px' }}>
             <nav className={`${styles.navbar} ${shouldUseScrolledStyle ? styles.scrolled : ''}`}>
@@ -37,12 +46,22 @@ export default function Navbar() {
                         </a>
                     </div>
 
+                    {/* Hamburger Menu */}
+                    <div 
+                        className={`${styles.hamburger} ${isMobileMenuOpen ? styles.open : ''}`}
+                        onClick={toggleMobileMenu}
+                    >
+                        <div className={styles.hamburgerLine}></div>
+                        <div className={styles.hamburgerLine}></div>
+                        <div className={styles.hamburgerLine}></div>
+                    </div>
+
                     {/* Navigation Links */}
-                    <div className={styles.navbarMenu}>
-                        <a href="/" className={styles.navbarLink}>{t('navbar.home')}</a>
-                        <a href="#about" className={styles.navbarLink}>{t('navbar.about')}</a>
-                        <a href="#services" className={styles.navbarLink}>{t('navbar.services')}</a>
-                        <a href="/contact" className={styles.navbarLink}>{t('navbar.contact')}</a>
+                    <div className={`${styles.navbarMenu} ${isMobileMenuOpen ? styles.open : ''}`}>
+                        <a href="/" className={styles.navbarLink} onClick={closeMobileMenu}>{t('navbar.home')}</a>
+                        <a href="#about" className={styles.navbarLink} onClick={closeMobileMenu}>{t('navbar.about')}</a>
+                        <a href="#services" className={styles.navbarLink} onClick={closeMobileMenu}>{t('navbar.services')}</a>
+                        <a href="/contact" className={styles.navbarLink} onClick={closeMobileMenu}>{t('navbar.contact')}</a>
                     </div>
 
                     {/* Language Switcher */}

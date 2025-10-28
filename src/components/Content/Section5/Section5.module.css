@@ -88,6 +88,11 @@
 
 /* Responsive design */
 @media (max-width: 768px) {
+    .section5 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
     .container {
         flex-direction: column;
     }
@@ -103,13 +108,65 @@
     .redBlock {
         margin-top: 0;
         min-height: auto;
+        height: auto;
+        padding: 30px 20px;
     }
     
     .imageContainer {
         height: 300px;
     }
     
-    .mainHeading {
+    .smallHeading {
+        font-size: 11px;
+        margin-bottom: 15px;
+    }
+
+    .mainTitle {
+        font-size: 24px;
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+
+    .bodyText {
+        font-size: 15px;
+        max-width: 100%;
+    }
+
+    .bodyText p {
+        margin: 0 0 15px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .section5 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .redBlock {
+        padding: 25px 15px;
+    }
+    
+    .imageContainer {
+        height: 250px;
+    }
+    
+    .smallHeading {
+        font-size: 10px;
+        margin-bottom: 12px;
+    }
+
+    .mainTitle {
         font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .bodyText {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .bodyText p {
+        margin: 0 0 12px 0;
     }
 }
