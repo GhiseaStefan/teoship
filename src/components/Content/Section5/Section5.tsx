@@ -15,7 +15,7 @@ export default function Section5() {
                         <div className={styles.smallHeading}>{t('section5.heading')}</div>
                         <div className={styles.mainTitle}>{t('section5.title')}</div>
                         <div className={styles.bodyText}>
-                            {t('section5.description').map((paragraph, index) => (
+                            {t('section5.description').map((paragraph: string, index: number) => (
                                 <p key={index}>{paragraph}</p>
                             ))}
                         </div>

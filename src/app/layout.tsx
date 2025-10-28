@@ -3,6 +3,80 @@ import Footer from '../components/Footer/Footer'
 import Navbar from '../components/Header/Navbar/Navbar'
 import ScrollUpButton from '../components/ScrollUpButton/ScrollUpButton'
 import { LocaleProvider } from '../lib/LocaleContext'
+import StructuredData from '../components/StructuredData/StructuredData'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: {
+    default: 'Teoship - Servicii de Fulfillment pentru E-commerce',
+    template: '%s | Teoship'
+  },
+  description: 'Servicii complete de fulfillment pentru afacerile tale online. Depozitare, ambalare, livrare și gestionarea inventarului. Soluții scalabile pentru e-commerce.',
+  keywords: [
+    'fulfillment',
+    'e-commerce',
+    'depozitare',
+    'livrare',
+    'logistică',
+    'inventar',
+    'ambalare',
+    'pick pack',
+    'servicii fulfillment',
+    'depozit România'
+  ],
+  authors: [{ name: 'Teoship' }],
+  creator: 'Teoship',
+  publisher: 'Teoship',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  metadataBase: new URL('https://teoship.ro'),
+  alternates: {
+    canonical: '/',
+    languages: {
+      'ro-RO': '/ro',
+      'en-US': '/en',
+    },
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'ro_RO',
+    url: 'https://teoship.ro',
+    siteName: 'Teoship',
+    title: 'Teoship - Servicii de Fulfillment pentru E-commerce',
+    description: 'Servicii complete de fulfillment pentru afacerile tale online. Depozitare, ambalare, livrare și gestionarea inventarului.',
+    images: [
+      {
+        url: '/images/banner.png',
+        width: 1200,
+        height: 630,
+        alt: 'Teoship - Servicii de Fulfillment',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Teoship - Servicii de Fulfillment pentru E-commerce',
+    description: 'Servicii complete de fulfillment pentru afacerile tale online.',
+    images: ['/images/banner.png'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  verification: {
+    google: 'your-google-verification-code',
+  },
+}
 
 export default function RootLayout({
     children,
@@ -24,6 +98,7 @@ export default function RootLayout({
                 flexDirection: 'column', 
                 minHeight: '100vh' 
             }}>
+                <StructuredData />
                 <LocaleProvider>
                     <Navbar />
                     <main style={{ flex: 1 }}>
