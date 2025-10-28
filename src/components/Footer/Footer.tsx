@@ -37,18 +37,8 @@ export default function Footer() {
                 <div className={styles.section}>
                     <h3 className={styles.sectionTitle}>{t('footer.contact.title')}</h3>
                     <div className={styles.contact}>
-                        <p><a href="#" className={styles.link}>{t('footer.contact.form')}</a></p>
+                        <p><a href="/contact" className={styles.link}>{t('footer.contact.form')}</a></p>
                         <p><a href="tel:+40770425221" className={styles.link}>{t('footer.contact.phone')}</a></p>
-                    </div>
-                </div>
-
-                {/* Services Section */}
-                <div className={styles.section}>
-                    <h3 className={styles.sectionTitle}>{t('footer.services.title')}</h3>
-                    <div className={styles.services}>
-                        {t('footer.services.list').map((service: string, index: number) => (
-                            <p key={index}>{service}</p>
-                        ))}
                     </div>
                 </div>
             </div>

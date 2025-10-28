@@ -133,15 +133,6 @@ export const translations = {
         form: "Formular de contact",
         phone: "+40 770 425 221"
       },
-      services: {
-        title: "Servicii",
-        list: [
-          "Fulfillment complet",
-          "Depozitare si livrare",
-          "Gestionare retururi",
-          "Suport tehnic"
-        ]
-      },
       bottom: {
         copyright: "©2025, teoship.ro. Toate drepturile rezervate.",
         links: {
@@ -284,15 +275,6 @@ export const translations = {
         title: "Contact",
         form: "Contact form",
         phone: "+40 770 425 221"
-      },
-      services: {
-        title: "Services",
-        list: [
-          "Complete fulfillment",
-          "Storage and delivery",
-          "Return management",
-          "Technical support"
-        ]
       },
       bottom: {
         copyright: "©2025, teoship.ro. All rights reserved.",

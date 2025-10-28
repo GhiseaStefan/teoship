@@ -9,8 +9,8 @@
     margin: 0 auto;
     padding: 0 20px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
     align-items: flex-start;
     margin-bottom: 40px;
 }
@@ -21,8 +21,9 @@
 
 .logoContainer {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 12px;
+    gap: 8px;
 }
 
 .logoIcon {
