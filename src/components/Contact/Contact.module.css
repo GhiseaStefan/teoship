@@ -131,7 +131,7 @@
 }
 
 .link {
-    color: #dc2626;
+    color: #3396D3;
     text-decoration: none;
 }
 
@@ -150,7 +150,7 @@
     margin-top: 0.125rem;
     width: 1rem;
     height: 1rem;
-    accent-color: #dc2626;
+    accent-color: #3396D3;
 }
 
 .checkboxLabel {
@@ -161,7 +161,7 @@
 }
 
 .submitButton {
-    background-color: #dc2626;
+    background-color: #3396D3;
     color: white;
     border: none;
     padding: 0.875rem 2rem;
@@ -175,11 +175,11 @@
 }
 
 .submitButton:hover {
-    background-color: #b91c1c;
+    background-color: #2a7bb8;
 }
 
 .submitButton:active {
-    background-color: #991b1b;
+    background-color: #2169a3;
 }
 
 /* Responsive design */

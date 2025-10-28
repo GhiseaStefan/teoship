@@ -49,9 +49,9 @@ export default function Section1() {
           <div className={styles.statItem}>
             <div className={styles.statIcon}>
               <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
-                <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="#d90a2c" />
-                <path d="M2 17L12 22L22 17" stroke="#d90a2c" strokeWidth="2" />
-                <path d="M2 12L12 17L22 12" stroke="#d90a2c" strokeWidth="2" />
+                <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="#3396D3" />
+                <path d="M2 17L12 22L22 17" stroke="#3396D3" strokeWidth="2" />
+                <path d="M2 12L12 17L22 12" stroke="#3396D3" strokeWidth="2" />
               </svg>
             </div>
             <div className={styles.statNumber}>7,000,000+</div>
@@ -63,15 +63,15 @@ export default function Section1() {
           <div className={styles.statItem}>
             <div className={styles.statIcon}>
               <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
-                <path d="M3 21H21" stroke="#d90a2c" strokeWidth="2" />
+                <path d="M3 21H21" stroke="#3396D3" strokeWidth="2" />
                 <path
                   d="M5 21V7L13 2L21 7V21"
-                  stroke="#d90a2c"
+                  stroke="#3396D3"
                   strokeWidth="2"
                 />
-                <path d="M9 9H15" stroke="#d90a2c" strokeWidth="2" />
-                <path d="M9 13H15" stroke="#d90a2c" strokeWidth="2" />
-                <path d="M9 17H15" stroke="#d90a2c" strokeWidth="2" />
+                <path d="M9 9H15" stroke="#3396D3" strokeWidth="2" />
+                <path d="M9 13H15" stroke="#3396D3" strokeWidth="2" />
+                <path d="M9 17H15" stroke="#3396D3" strokeWidth="2" />
               </svg>
             </div>
             <div className={styles.statNumber}>12</div>
@@ -87,10 +87,10 @@ export default function Section1() {
                   cx="12"
                   cy="12"
                   r="10"
-                  stroke="#d90a2c"
+                  stroke="#3396D3"
                   strokeWidth="2"
                 />
-                <path d="M12 6V12L16 14" stroke="#d90a2c" strokeWidth="2" />
+                <path d="M12 6V12L16 14" stroke="#3396D3" strokeWidth="2" />
               </svg>
             </div>
             <div className={styles.statNumber}>99.4%</div>
@@ -104,17 +104,17 @@ export default function Section1() {
                   cx="12"
                   cy="12"
                   r="10"
-                  stroke="#d90a2c"
+                  stroke="#3396D3"
                   strokeWidth="2"
                 />
                 <circle
                   cx="12"
                   cy="12"
                   r="6"
-                  stroke="#d90a2c"
+                  stroke="#3396D3"
                   strokeWidth="2"
                 />
-                <circle cx="12" cy="12" r="2" fill="#d90a2c" />
+                <circle cx="12" cy="12" r="2" fill="#3396D3" />
               </svg>
             </div>
             <div className={styles.statNumber}>99.9%</div>

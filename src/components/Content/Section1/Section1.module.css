@@ -1,5 +1,5 @@
 .section1 {
-    background: #f8fafc;
+    background: #FFF0CE;
 }
 
 .logoContainer {
@@ -94,7 +94,7 @@
 
 .statDescription {
     font-size: 0.875rem;
-    color: #d90a2c;
+    color: #3396D3;
     line-height: 1.4;
     max-width: 200px;
 }

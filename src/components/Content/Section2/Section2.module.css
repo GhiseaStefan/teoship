@@ -23,7 +23,7 @@
 }
 
 .block:first-child {
-    background-color: #dc2626; /* Red background for first block */
+    background-color: #3396D3; /* Red background for first block */
     height: 500px; /* Make red block taller */
 }
 
