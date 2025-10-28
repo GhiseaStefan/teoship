@@ -87,13 +87,6 @@ export default function Section3() {
                             </div>
                         )}
 
-                        <div className={styles.socialSection}>
-                            <div className={styles.socialIcons}>
-                                <div className={styles.socialIcon}>LinkedIn</div>
-                                <div className={styles.socialIcon}>Facebook</div>
-                            </div>
-                            <div className={styles.followText}>{t('section3.social.follow')}</div>
-                        </div>
                     </div>
                 </div>
             </div>
