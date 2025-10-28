@@ -3,7 +3,7 @@ export const translations = {
     navbar: {
       home: "Acasa",
       about: "Despre",
-      services: "Servicii",
+      advantages: "Avantaje",
       contact: "Contact"
     },
     banner: {
@@ -140,13 +140,55 @@ export const translations = {
           privacy: "Politica de confidentialitate"
         }
       }
+    },
+    advantages: {
+      title: "De ce sa alegi serviciul de fulfillment",
+      subtitle: "Externalizeaza intregul proces logistic si bucura-te de avantajele solutiei teoship.ro.",
+      cards: {
+        reduceCosts: {
+          title: "Economisirea costurilor operationale",
+          description: "In perioadele cu volum redus de activitate, elimini complet cheltuielile cu personalul neutilizat si spatiul de depozitare impreuna cu toate costurile asociate."
+        },
+        saveTime: {
+          title: "Optimizarea timpului si energiei",
+          description: "Ai mai mult timp liber pentru a te concentra pe clienti, dezvoltarea produselor si explorarea de noi oportunitati de business (B2B, piete internationale)."
+        },
+        insurance: {
+          title: "Protectie inclusa in pret",
+          description: "Beneficiezi de asigurare completa a marfurilor incluse in costul serviciului. Ai un avantaj competitiv semnificativ, intrucat majoritatea magazinelor online nu ofera aceasta protectie."
+        },
+        noStress: {
+          title: "Eliminarea stresului operational",
+          description: "Ai la dispozitie un consultant specializat cu care poti discuta procesele operationale in intervalul orar 08:00-18:00."
+        },
+        noDelays: {
+          title: "Livrari fara intarzieri",
+          description: "Nu mai ai griji legate de intarzierile comenzilor in perioadele de varf precum Black Friday sau sarbatorile de iarna!"
+        },
+        noConstraints: {
+          title: "Libertate de infrastructura",
+          description: "Prin serviciul nostru de fulfillment te eliberezi de necesitatea de a investi in echipamente, software specializat, spatii de depozitare si procese de pick & pack!"
+        },
+        customerSupport: {
+          title: "Asistenta clienti premium",
+          description: "Ai acces la servicii avansate de call center si platforme de comunicare multi-canal (SMS, email, notificari push)."
+        },
+        businessSupport: {
+          title: "Sprijin pentru dezvoltarea afacerii",
+          description: "Gestionam eficient cresterile bruste de volum si iti eliminam necesitatea de a adapta infrastructura existenta."
+        },
+        noDocuments: {
+          title: "Gestionare completa a documentatiei",
+          description: "Ne ocupam de toate autorizatiile necesare: functionare, ISU, DSP, DSV, declaratii ANAF, siguranta muncii, evaluarea riscurilor si multe altele."
+        }
+      }
     }
   },
   en: {
     navbar: {
       home: "Home",
       about: "About",
-      services: "Services",
+      advantages: "Advantages",
       contact: "Contact"
     },
     banner: {
@@ -281,6 +323,48 @@ export const translations = {
         links: {
           cookies: "Cookie Policy",
           privacy: "Privacy Policy"
+        }
+      }
+    },
+    advantages: {
+      title: "Why choose the fulfillment service",
+      subtitle: "Outsource the entire logistics process and enjoy the advantages of the teoship.ro solution.",
+      cards: {
+        reduceCosts: {
+          title: "Operational cost savings",
+          description: "During periods of low activity, you completely eliminate expenses for underutilized staff and warehouse space along with all associated costs."
+        },
+        saveTime: {
+          title: "Time and energy optimization",
+          description: "You have more free time to focus on customers, product development, and exploring new business opportunities (B2B, international markets)."
+        },
+        insurance: {
+          title: "Protection included in price",
+          description: "You benefit from comprehensive goods insurance included in the service cost. You have a significant competitive advantage, as most online stores don't offer this protection."
+        },
+        noStress: {
+          title: "Elimination of operational stress",
+          description: "You have access to a specialized consultant to discuss operational processes during business hours 08:00-18:00."
+        },
+        noDelays: {
+          title: "Delivery without delays",
+          description: "No more worries about order delays during peak periods like Black Friday or winter holidays!"
+        },
+        noConstraints: {
+          title: "Infrastructure freedom",
+          description: "Through our fulfillment service, you free yourself from the need to invest in equipment, specialized software, storage spaces, and pick & pack processes!"
+        },
+        customerSupport: {
+          title: "Premium customer assistance",
+          description: "You have access to advanced call center services and multi-channel communication platforms (SMS, email, push notifications)."
+        },
+        businessSupport: {
+          title: "Support for business development",
+          description: "We efficiently manage sudden volume increases and eliminate your need to adapt existing infrastructure."
+        },
+        noDocuments: {
+          title: "Complete documentation management",
+          description: "We handle all necessary authorizations: operation permits, ISU, DSP, DSV, ANAF declarations, workplace safety, risk assessment, and many others."
         }
       }
     }
