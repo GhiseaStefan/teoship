@@ -1,0 +1,244 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    background-color: white;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: start;
+}
+
+.textSection {
+    padding-right: 20px;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 40px;
+    line-height: 1.2;
+}
+
+.textContent {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.paragraph {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #4b5563;
+    margin: 0;
+}
+
+.section {
+    margin-top: 32px;
+}
+
+.sectionTitle {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 12px;
+}
+
+.illustrationSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+}
+
+.imageContainer {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.illustrationImage {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+/* Responsive design */
+@media (max-width: 1200px) {
+    .container {
+        padding: 60px 20px;
+    }
+    
+    .content {
+        gap: 50px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .content {
+        gap: 40px;
+    }
+    
+    .imageContainer {
+        max-width: 500px;
+    }
+    
+    .title {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 50px 20px;
+    }
+    
+    .content {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+    
+    .textSection {
+        padding-right: 0;
+        order: 1;
+    }
+    
+    .illustrationSection {
+        order: 2;
+        min-height: 250px;
+    }
+    
+    .title {
+        font-size: 2rem;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    
+    .textContent {
+        gap: 20px;
+    }
+    
+    .paragraph {
+        font-size: 0.95rem;
+        text-align: justify;
+    }
+    
+    .sectionTitle {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    
+    .imageContainer {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 640px) {
+    .container {
+        padding: 40px 15px;
+    }
+    
+    .content {
+        gap: 30px;
+    }
+    
+    .title {
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+    }
+    
+    .textContent {
+        gap: 18px;
+    }
+    
+    .paragraph {
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+    
+    .section {
+        margin-top: 25px;
+    }
+    
+    .sectionTitle {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+    
+    .imageContainer {
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 30px 12px;
+    }
+    
+    .content {
+        gap: 25px;
+    }
+    
+    .title {
+        font-size: 1.6rem;
+        margin-bottom: 18px;
+    }
+    
+    .textContent {
+        gap: 16px;
+    }
+    
+    .paragraph {
+        font-size: 0.85rem;
+        line-height: 1.4;
+    }
+    
+    .section {
+        margin-top: 20px;
+    }
+    
+    .sectionTitle {
+        font-size: 0.95rem;
+        margin-bottom: 8px;
+    }
+    
+    .illustrationSection {
+        min-height: 200px;
+    }
+    
+    .imageContainer {
+        max-width: 280px;
+    }
+}
+
+@media (max-width: 360px) {
+    .container {
+        padding: 25px 10px;
+    }
+    
+    .title {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
+    
+    .paragraph {
+        font-size: 0.8rem;
+    }
+    
+    .sectionTitle {
+        font-size: 0.9rem;
+    }
+    
+    .imageContainer {
+        max-width: 250px;
+    }
+}

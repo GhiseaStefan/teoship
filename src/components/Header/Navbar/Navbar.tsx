@@ -64,7 +64,7 @@ export default function Navbar() {
                     {/* Navigation Links */}
                     <div className={`${styles.navbarMenu} ${isMobileMenuOpen ? styles.open : ''}`}>
                         <a href="/" className={styles.navbarLink} onClick={closeMobileMenu}>{t('navbar.home')}</a>
-                        <a href="#about" className={styles.navbarLink} onClick={closeMobileMenu}>{t('navbar.about')}</a>
+                        <a href="/about" className={styles.navbarLink} onClick={closeMobileMenu}>{t('navbar.about')}</a>
                         <a href="/advantages" className={styles.navbarLink} onClick={closeMobileMenu}>{t('navbar.advantages')}</a>
                         <a href="/contact" className={styles.navbarLink} onClick={closeMobileMenu}>{t('navbar.contact')}</a>
                     </div>

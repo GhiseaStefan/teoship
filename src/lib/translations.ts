@@ -182,6 +182,21 @@ export const translations = {
           description: "Ne ocupam de toate autorizatiile necesare: functionare, ISU, DSP, DSV, declaratii ANAF, siguranta muncii, evaluarea riscurilor si multe altele."
         }
       }
+    },
+    about: {
+      title: "Despre noi",
+      introduction: "Suntem o companie de logistica moderna, orientata pe tehnologie si inovatie, cu misiunea de a oferi solutii de calitate in domeniul transportului si depozitarii.",
+      approach: "Prin colaborarea cu furnizori de servicii logistice experimentati si calificati, oferim comerciantilor acces la servicii scalabile care permit cresterea afacerii si apropierea de clienti. Aceasta ajuta companiile sa intalneasca si sa depaseasca asteptarile clientilor cu privire la livrare, asigurand satisfactia acestora.",
+      technology: "Acest lucru este posibil prin combinarea retelei noastre de parteneri si a platformei software cloud care se integreaza cu sistemele de e-commerce, oferind automatie si transparenta.",
+      goal: "Ne propunem sa oferim o solutie completa pentru e-commerce care sa-i ajute pe comercianti sa-si dezvolte afacerile si sa-si atinga obiectivele.",
+      vision: {
+        title: "Viziunea noastra",
+        description: "Sa stabilim un nou standard pentru logistica prin oferirea unei solutii scalabile magazinelor online."
+      },
+      mission: {
+        title: "Misiunea noastra",
+        description: "Sa construim o retea de depozite interconectate prin tehnologia noastra si sa permitem operatiuni fara probleme."
+      }
     }
   },
   en: {
@@ -366,6 +381,21 @@ export const translations = {
           title: "Complete documentation management",
           description: "We handle all necessary authorizations: operation permits, ISU, DSP, DSV, ANAF declarations, workplace safety, risk assessment, and many others."
         }
+      }
+    },
+    about: {
+      title: "About us",
+      introduction: "We are a modern logistics company, focused on technology and innovation, with a mission to provide quality solutions in transportation and warehousing.",
+      approach: "Through collaboration with experienced and qualified logistics service providers, we offer merchants access to scalable services that enable business growth and bring them closer to customers. This helps companies meet and exceed customer expectations regarding delivery, ensuring their satisfaction.",
+      technology: "This is made possible by combining our partner network and cloud software platform that integrates with e-commerce systems, offering automation and transparency.",
+      goal: "We aim to provide a complete solution for e-commerce that helps merchants develop their businesses and achieve their goals.",
+      vision: {
+        title: "Our Vision",
+        description: "To set a new standard for logistics by offering a scalable solution to online stores."
+      },
+      mission: {
+        title: "Our Mission",
+        description: "To build a network of warehouses interconnected through our technology and enable seamless operations."
       }
     }
   }
