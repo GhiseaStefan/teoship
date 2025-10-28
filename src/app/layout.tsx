@@ -1,6 +1,7 @@
 import './globals.css'
 import Footer from '../components/Footer/Footer'
 import Navbar from '../components/Header/Navbar/Navbar'
+import { LocaleProvider } from '../lib/LocaleContext'
 
 export default function RootLayout({
     children,
@@ -14,11 +15,13 @@ export default function RootLayout({
                 flexDirection: 'column', 
                 minHeight: '100vh' 
             }}>
-                <Navbar />
-                <main style={{ flex: 1 }}>
-                    {children}
-                </main>
-                <Footer />
+                <LocaleProvider>
+                    <Navbar />
+                    <main style={{ flex: 1 }}>
+                        {children}
+                    </main>
+                    <Footer />
+                </LocaleProvider>
             </body>
         </html>
     )

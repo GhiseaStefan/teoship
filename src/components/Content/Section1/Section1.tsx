@@ -1,6 +1,11 @@
+'use client';
+
 import styles from "./Section1.module.css";
+import { useTranslation } from "../../../lib/useTranslation";
 
 export default function Section1() {
+  const { t } = useTranslation();
+  
   const logos = [
     {
       src: "https://cdn.prod.website-files.com/647371f04a4117524228d2e1/67b6fe703c5f02b91e108e5f_Vinted_logo-p-2000.png",
@@ -39,10 +44,10 @@ export default function Section1() {
       {/* Statistics Section */}
       <div className={styles.text}>
         <h2 className={styles.title}>
-          Livreaza eficient catre 315 milioane de cumparatori online din Europa
+          {t('section1.title')}
         </h2>
         <p className={styles.subtitle}>
-          Peste 20 curieri. Peste 12 centre de fulfillment. O solutie de fulfillment fara cusaturi.
+          {t('section1.subtitle')}
         </p>
 
         <div className={styles.statsGrid}>
@@ -56,7 +61,7 @@ export default function Section1() {
             </div>
             <div className={styles.statNumber}>7,000,000+</div>
             <div className={styles.statDescription}>
-              produse livrate anual din centrele noastre de logistica
+              {t('section1.stats.deliveries')}
             </div>
           </div>
 
@@ -76,7 +81,7 @@ export default function Section1() {
             </div>
             <div className={styles.statNumber}>12</div>
             <div className={styles.statDescription}>
-              centre de fulfillment în UE și UK
+              {t('section1.stats.centers')}
             </div>
           </div>
 
@@ -94,7 +99,7 @@ export default function Section1() {
               </svg>
             </div>
             <div className={styles.statNumber}>99.4%</div>
-            <div className={styles.statDescription}>rata de livrare la timp</div>
+            <div className={styles.statDescription}>{t('section1.stats.onTime')}</div>
           </div>
 
           <div className={styles.statItem}>
@@ -118,7 +123,7 @@ export default function Section1() {
               </svg>
             </div>
             <div className={styles.statNumber}>99.9%</div>
-            <div className={styles.statDescription}>acuratetea fulfillment-ului</div>
+            <div className={styles.statDescription}>{t('section1.stats.accuracy')}</div>
           </div>
         </div>
       </div>

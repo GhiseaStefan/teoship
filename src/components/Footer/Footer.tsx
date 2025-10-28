@@ -1,6 +1,11 @@
+'use client';
+
 import styles from "./Footer.module.css";
+import { useTranslation } from "../../lib/useTranslation";
 
 export default function Footer() {
+    const { t } = useTranslation();
+    
     return (
         <footer className={styles.footer}>
             <div className={styles.mainContent}>
@@ -8,7 +13,7 @@ export default function Footer() {
                 <div className={styles.logoSection}>
                     <div className={styles.logoContainer}>
                         <div className={styles.logoIcon}>
-                            <div className={styles.shipIcon}>🚢</div>
+                            <img src="/images/logo.png" alt="Teoship" className={styles.logoImage} />
                         </div>
                         <span className={styles.logoText}>teoship.ro</span>
                     </div>
@@ -16,36 +21,34 @@ export default function Footer() {
 
                 {/* Warehouse Section */}
                 <div className={styles.section}>
-                    <h3 className={styles.sectionTitle}>Depozit</h3>
+                    <h3 className={styles.sectionTitle}>{t('footer.warehouse.title')}</h3>
                     <div className={styles.address}>
-                        <p>Str. Moara Domneasca nr 8, Hala V9,</p>
-                        <p>Sat Afumati,</p>
-                        <p>Judetul Ilfov,</p>
-                        <p>077010, Romania</p>
+                        {t('footer.warehouse.address').map((line: string, index: number) => (
+                            <p key={index}>{line}</p>
+                        ))}
                     </div>
                     <div className={styles.schedule}>
-                        <p className={styles.scheduleTitle}>Program</p>
-                        <p>L-V: 09:00 - 16:30</p>
+                        <p className={styles.scheduleTitle}>{t('footer.warehouse.schedule.title')}</p>
+                        <p>{t('footer.warehouse.schedule.hours')}</p>
                     </div>
                 </div>
 
                 {/* Contact Section */}
                 <div className={styles.section}>
-                    <h3 className={styles.sectionTitle}>Contact</h3>
+                    <h3 className={styles.sectionTitle}>{t('footer.contact.title')}</h3>
                     <div className={styles.contact}>
-                        <p><a href="#" className={styles.link}>Formular de contact</a></p>
-                        <p><a href="tel:+40770425221" className={styles.link}>+40 770 425 221</a></p>
+                        <p><a href="#" className={styles.link}>{t('footer.contact.form')}</a></p>
+                        <p><a href="tel:+40770425221" className={styles.link}>{t('footer.contact.phone')}</a></p>
                     </div>
                 </div>
 
                 {/* Services Section */}
                 <div className={styles.section}>
-                    <h3 className={styles.sectionTitle}>Servicii</h3>
+                    <h3 className={styles.sectionTitle}>{t('footer.services.title')}</h3>
                     <div className={styles.services}>
-                        <p>Fulfillment complet</p>
-                        <p>Depozitare si livrare</p>
-                        <p>Gestionare retururi</p>
-                        <p>Suport tehnic</p>
+                        {t('footer.services.list').map((service: string, index: number) => (
+                            <p key={index}>{service}</p>
+                        ))}
                     </div>
                 </div>
             </div>
@@ -53,12 +56,12 @@ export default function Footer() {
             {/* Bottom Section */}
             <div className={styles.bottomSection}>
                 <div className={styles.copyright}>
-                    ©2025, teoship.ro. Toate drepturile rezervate.
+                    {t('footer.bottom.copyright')}
                 </div>
                 <div className={styles.legalLinks}>
-                    <a href="#" className={styles.link}>Politica Cookie</a>
+                    <a href="#" className={styles.link}>{t('footer.bottom.links.cookies')}</a>
                     <span className={styles.separator}> | </span>
-                    <a href="#" className={styles.link}>Politica de confidentialitate</a>
+                    <a href="#" className={styles.link}>{t('footer.bottom.links.privacy')}</a>
                 </div>
             </div>
         </footer>

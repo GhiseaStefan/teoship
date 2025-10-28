@@ -1,9 +1,11 @@
-"use client";
+'use client';
 
 import { useState } from "react";
+import { useTranslation } from "../../../lib/useTranslation";
 import styles from "./Section3.module.css";
 
 export default function Section3() {
+    const { t } = useTranslation();
     const [expandedQuestions, setExpandedQuestions] = useState<{[key: string]: boolean}>({
         fulfillment: true // Open by default
     });
@@ -37,7 +39,7 @@ export default function Section3() {
                 <div className={styles.textColumn}>
                     <div className={styles.redBlock}>
                         <h2 className={styles.mainHeading}>
-                            Cele 3 intrebari importante la care trebuie sa stii raspunsurile:
+                            {t('section3.title')}
                         </h2>
                         
                         <div className={styles.questionItem}>
@@ -47,11 +49,11 @@ export default function Section3() {
                             >
                                 {expandedQuestions.fulfillment ? '−' : '+'}
                             </span>
-                            <span className={styles.questionText}>Ce este fulfillment-ul?</span>
+                            <span className={styles.questionText}>{t('section3.questions.fulfillment.question')}</span>
                         </div>
                         {expandedQuestions.fulfillment && (
                             <div className={styles.expandedAnswer}>
-                                Fulfillment-ul in e-commerce reprezinta procesul complet de primire, pregatire si livrare a comenzilor din magazinul tau online. Cuprinde totul de la gestionarea inventarului si procesarea comenzilor pana la ambalare, etichetare si livrarea finala catre clienti.
+                                {t('section3.questions.fulfillment.answer')}
                             </div>
                         )}
 
@@ -62,11 +64,11 @@ export default function Section3() {
                             >
                                 {expandedQuestions.costs ? '−' : '+'}
                             </span>
-                            <span className={styles.questionText}>Cum reduceti costurile?</span>
+                            <span className={styles.questionText}>{t('section3.questions.costs.question')}</span>
                         </div>
                         {expandedQuestions.costs && (
                             <div className={styles.expandedAnswer}>
-                                Prin externalizarea fulfillment-ului catre furnizori specializati, poti reduce semnificativ costurile operationale. Aceasta include eliminarea necesitatii de spatiu de depozit, reducerea costurilor cu forta de munca si beneficierea de tarife de livrare in vrac. In plus, eviti investitia initiala in tehnologia si infrastructura de fulfillment, in timp ce obtii acces la expertiza profesionala si solutii scalabile care cresc odata cu afacerea ta.
+                                {t('section3.questions.costs.answer')}
                             </div>
                         )}
 
@@ -77,11 +79,11 @@ export default function Section3() {
                             >
                                 {expandedQuestions.importance ? '−' : '+'}
                             </span>
-                            <span className={styles.questionText}>De ce este important?</span>
+                            <span className={styles.questionText}>{t('section3.questions.importance.question')}</span>
                         </div>
                         {expandedQuestions.importance && (
                             <div className={styles.expandedAnswer}>
-                                Fulfillment-ul corespunzator este crucial pentru satisfactia clientilor si cresterea afacerii. Asigura livrarea la timp, reduce erorile de livrare si ofera clientilor informatii precise de urmarire. Un proces de fulfillment fiabil construieste increderea cu clientii, imbunatateste reputatia marcii tale si iti permite sa te concentrezi pe activitatile de baza ale afacerii precum dezvoltarea produselor si marketingul. De asemenea, permite o gestionare mai buna a inventarului si scalabilitate pe masura ce afacerea ta creste.
+                                {t('section3.questions.importance.answer')}
                             </div>
                         )}
 
@@ -90,7 +92,7 @@ export default function Section3() {
                                 <div className={styles.socialIcon}>LinkedIn</div>
                                 <div className={styles.socialIcon}>Facebook</div>
                             </div>
-                            <div className={styles.followText}>Urmareste-ne</div>
+                            <div className={styles.followText}>{t('section3.social.follow')}</div>
                         </div>
                     </div>
                 </div>

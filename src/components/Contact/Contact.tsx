@@ -1,9 +1,11 @@
 'use client';
 
 import { useState } from 'react';
+import { useTranslation } from '../../lib/useTranslation';
 import styles from './Contact.module.css';
 
 export default function Contact() {
+    const { t } = useTranslation();
     const [formData, setFormData] = useState({
         name: 'Vlad Ionescu',
         phone: '0723456789',
@@ -30,15 +32,15 @@ export default function Contact() {
     return (
         <div className={styles.contactContainer}>
             <div className={styles.contactHeader}>
-                <p className={styles.subtitle}>Hai sa vorbim!</p>
-                <h1 className={styles.title}>Cu ce te putem ajuta?</h1>
+                <p className={styles.subtitle}>{t('contact.subtitle')}</p>
+                <h1 className={styles.title}>{t('contact.title')}</h1>
             </div>
 
             <div className={styles.contactContent}>
                 <div className={styles.leftSection}>
-                    <h2 className={styles.leftTitle}>Lasa-ne un mesaj</h2>
+                    <h2 className={styles.leftTitle}>{t('contact.leftTitle')}</h2>
                     <p className={styles.leftDescription}>
-                        Completeaza acest formular si trimite-ne intrebarile tale.
+                        {t('contact.leftDescription')}
                     </p>
                 </div>
 
@@ -47,7 +49,7 @@ export default function Contact() {
                         <div className={styles.formRow}>
                             <div className={styles.formField}>
                                 <label htmlFor="name" className={styles.label}>
-                                    Nume/prenume*
+                                    {t('contact.form.name')}*
                                 </label>
                                 <input
                                     type="text"
@@ -61,7 +63,7 @@ export default function Contact() {
                             </div>
                             <div className={styles.formField}>
                                 <label htmlFor="phone" className={styles.label}>
-                                    Numar de telefon*
+                                    {t('contact.form.phone')}*
                                 </label>
                                 <input
                                     type="tel"
@@ -78,7 +80,7 @@ export default function Contact() {
                         <div className={styles.formRow}>
                             <div className={styles.formField}>
                                 <label htmlFor="email" className={styles.label}>
-                                    E-mail*
+                                    {t('contact.form.email')}*
                                 </label>
                                 <input
                                     type="email"
@@ -92,7 +94,7 @@ export default function Contact() {
                             </div>
                             <div className={styles.formField}>
                                 <label htmlFor="company" className={styles.label}>
-                                    Denumire companie*
+                                    {t('contact.form.company')}*
                                 </label>
                                 <input
                                     type="text"
@@ -108,7 +110,7 @@ export default function Contact() {
 
                         <div className={styles.textareaContainer}>
                             <label htmlFor="message" className={styles.label}>
-                                Mesaj*
+                                {t('contact.form.message')}*
                             </label>
                             <textarea
                                 id="message"
@@ -116,17 +118,14 @@ export default function Contact() {
                                 value={formData.message}
                                 onChange={handleInputChange}
                                 className={styles.textarea}
-                                placeholder="Spune-ne cu ce informatii te putem ajuta..."
+                                placeholder={t('contact.form.placeholder')}
                                 required
                             />
                         </div>
 
                         <div className={styles.disclaimer}>
                             <p className={styles.disclaimerText}>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
-                            </p>
-                            <p className={styles.disclaimerText}>
-                                Citeste <a href="#" className={styles.link}>aici</a> informatii detaliate despre prelucrarea datelor tale personale.
+                                {t('contact.form.disclaimer')}
                             </p>
                         </div>
 
@@ -139,12 +138,12 @@ export default function Contact() {
                                 className={styles.checkbox}
                             />
                             <label htmlFor="marketing" className={styles.checkboxLabel}>
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis voluptate numquam consequuntur laudantium temporibus tenetur, dignissimos esse? Error corporis tenetur dignissimos excepturi iure atque provident at, sint totam eligendi qui!
+                                {t('contact.form.checkbox')}
                             </label>
                         </div>
 
                         <button type="submit" className={styles.submitButton}>
-                            Trimiteti
+                            {t('contact.form.submit')}
                         </button>
                     </form>
                 </div>
