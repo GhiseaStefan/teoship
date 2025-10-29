@@ -111,7 +111,10 @@ export const translations = {
         placeholder: "Spune-ne cu ce informatii te putem ajuta...",
         disclaimer: "Prin trimiterea acestui formular, imi dau acordul pentru prelucrarea datelor personale conform Politicii de Confidentialitate.",
         privacyPolicy: "aici",
-        checkbox: "Sunt de acord cu prelucrarea datelor mele personale pentru scopuri de marketing si comunicare comerciala."
+        checkbox: "Sunt de acord cu prelucrarea datelor mele personale pentru scopuri de marketing si comunicare comerciala.",
+        sending: "Se trimite...",
+        success: "Mesajul a fost trimis cu succes! Te vom contacta in cel mai scurt timp posibil.",
+        error: "A aparut o eroare la trimiterea mesajului. Te rugam sa incerci din nou sau sa ne contactezi direct."
       }
     },
     footer: {
@@ -445,7 +448,10 @@ export const translations = {
         placeholder: "Tell us how we can help you...",
         disclaimer: "By submitting this form, I consent to the processing of personal data according to the Privacy Policy.",
         privacyPolicy: "here",
-        checkbox: "I agree to the processing of my personal data for marketing and commercial communication purposes."
+        checkbox: "I agree to the processing of my personal data for marketing and commercial communication purposes.",
+        sending: "Sending...",
+        success: "Message sent successfully! We will contact you as soon as possible.",
+        error: "An error occurred while sending the message. Please try again or contact us directly."
       }
     },
     footer: {

@@ -189,6 +189,31 @@
     background-color: #2169a3;
 }
 
+.submitButton:disabled {
+    background-color: #9ca3af;
+    cursor: not-allowed;
+}
+
+.successMessage {
+    background-color: #d1fae5;
+    border: 1px solid #10b981;
+    color: #065f46;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+}
+
+.errorMessage {
+    background-color: #fee2e2;
+    border: 1px solid #ef4444;
+    color: #991b1b;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
     .contactContainer {
