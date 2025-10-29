@@ -3,10 +3,10 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Despre Noi',
-  description: 'Suntem o companie de logistică modernă, orientată pe tehnologie și inovatie, cu misiunea de a oferi soluții de calitate în domeniul transportului și depozitării.',
+  description: 'Suntem o companie de logistica moderna, orientata pe tehnologie si inovatie, cu misiunea de a oferi solutii de calitate in domeniul transportului si depozitarii.',
   openGraph: {
-    title: 'Despre Teoship - Companie de Logistică Modernă',
-    description: 'Companie de logistică modernă cu tehnologie avansată și soluții scalabile pentru e-commerce.',
+    title: 'Despre Teoship - Companie de Logistica Moderna',
+    description: 'Companie de logistica moderna cu tehnologie avansata si solutii scalabile pentru e-commerce.',
     url: 'https://teoship.ro/about',
   },
 }

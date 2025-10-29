@@ -11,18 +11,18 @@ export const metadata: Metadata = {
     default: 'Teoship | Fulfillment',
     template: '%s | Teoship'
   },
-  description: 'Servicii complete de fulfillment pentru afacerile tale online. Depozitare, ambalare, livrare și gestionarea inventarului. Soluții scalabile pentru e-commerce.',
+  description: 'Servicii complete de fulfillment pentru afacerile tale online. Depozitare, ambalare, livrare si gestionarea inventarului. Solutii scalabile pentru e-commerce.',
   keywords: [
     'fulfillment',
     'e-commerce',
     'depozitare',
     'livrare',
-    'logistică',
+    'logistica',
     'inventar',
     'ambalare',
     'pick pack',
     'servicii fulfillment',
-    'depozit România'
+    'depozit Romania'
   ],
   authors: [{ name: 'Teoship' }],
   creator: 'Teoship',
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     url: 'https://teoship.ro',
     siteName: 'Teoship',
     title: 'Teoship | Fulfillment',
-    description: 'Servicii complete de fulfillment pentru afacerile tale online. Depozitare, ambalare, livrare și gestionarea inventarului.',
+    description: 'Servicii complete de fulfillment pentru afacerile tale online. Depozitare, ambalare, livrare si gestionarea inventarului.',
     images: [
       {
         url: '/images/banner.png',
