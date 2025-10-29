@@ -197,6 +197,100 @@ export const translations = {
         title: "Misiunea noastra",
         description: "Sa construim o retea de depozite interconectate prin tehnologia noastra si sa permitem operatiuni fara probleme."
       }
+    },
+    privacy: {
+      title: "Termeni si Conditii",
+      subtitle: "Documentul oficial care reglementeaza utilizarea serviciilor Teoship",
+      sections: {
+        definitions: {
+          title: "1. Definitii",
+          content: {
+            teoship: "Teoship – este denumirea comerciala a companiei noastre de servicii de fulfillment si logistica.",
+            seller: "Vanator – Teoship",
+            site: "Site – platforma online disponibila la www.teoship.ro si subdomeniile acestuia.",
+            buyer: "Cumparator – orice persoana fizica peste 16 ani, sau persoana juridica, care isi creeaza un cont si efectueaza o comanda.",
+            client: "Client – orice persoana care are sau obtine acces la continut, prin orice mijloc, inclusiv prin contul creat pe site.",
+            user: "Utilizator – orice persoana care finalizeaza crearea unui cont si accepta Termenii si Conditiile.",
+            account: "Cont – sectiunea din site formata din adresa de e-mail si parola, care permite plasarea comenzilor.",
+            order: "Comanda – documentul electronic prin care cumparatorul transmite vanatorului intentia de achizitie.",
+            goods: "Bunuri – orice produs listat pe site.",
+            campaign: "Campanie – actiune promotionala cu durata si stoc limitat.",
+            contract: "Contract – contractul la distanta intre Vanator si Cumparator.",
+            content: "Continut – orice informatie de pe site accesibila electronic.",
+            communications: "Comunicari Comerciale – mesaje promotionale trimise prin e-mail/SMS/etc.",
+            transaction: "Tranzactie – incasarea sau returnarea unei sume in urma unei vanzari."
+          }
+        },
+        documents: {
+          title: "2. Documente Contractuale",
+          content: "Prin plasarea unei comenzi, Cumparatorul accepta comunicarea prin telefon sau e-mail. Confirmarea comenzii nu reprezinta acceptarea acesteia. Vanatorul poate modifica cantitatea bunurilor comandate, informand Cumparatorul."
+        },
+        policy: {
+          title: "3. Politica de Vanzare Online",
+          content: [
+            "Accesul la comanda este permis oricarui utilizator cu cont. Teoship isi rezerva dreptul de a restriciona accesul in cazuri justificate.",
+            "Preturile afisate sunt in RON si includ TVA. Teoship nu raspunde pentru comisioanele bancare aplicate de procesatorii de plati."
+          ]
+        },
+        intellectual: {
+          title: "4. Dreptul la Proprietate Intelectuala",
+          content: "Continutul site-ului este proprietatea Teoship. Utilizarea acestuia este permisa doar in scopuri personale si non-comerciale, fara modificari sau distribuire fara acordul scris al Teoship."
+        },
+        order: {
+          title: "5. Comanda",
+          content: [
+            "Comenzile se efectueaza prin adaugarea produselor in cos si finalizarea platii. Cumparatorul trebuie sa ofere date corecte si sa fie disponibil pentru contact.",
+            "Vanatorul poate anula comenzi in caz de tranzactie invalida sau date incorecte.",
+            "Cumparatorul poate returna produsele in 14 zile calendaristice fara motiv, conform OUG nr. 34/2014. Rambursarea se face in cel mult 14 zile. Daca produsul este deteriorat, Teoship poate aplica o taxa de reconditionare."
+          ],
+          highlight: "Retururile sunt valabile doar pentru persoane fizice."
+        },
+        confidentiality: {
+          title: "6. Confidentialitate",
+          content: "Teoship va pastra confidentialitatea datelor furnizate. Trimiterea de informatii catre site ofera Teoship drepturi nelimitate de utilizare a acestora."
+        },
+        communications: {
+          title: "7. Comunicari Comerciale",
+          content: [
+            "Clientii pot modifica acordul privind comunicarile comerciale din cont sau prin linkul de dezabonare.",
+            "Teoship poate trimite sugestii de produse, sondaje sau cercetari de piata, fara a asocia datele cu identitatea utilizatorului."
+          ]
+        },
+        delivery: {
+          title: "8. Livrarea Bunurilor",
+          content: "Conditiile de livrare sunt detaliate in sectiunea Livrarea comenzilor a site-ului."
+        },
+        responsibility: {
+          title: "9. Raspundere",
+          content: "Utilizatorul este responsabil pentru confidentialitatea datelor contului si accepta Termenii si Conditiile in forma actuala la momentul folosirii site-ului sau al plasarii comenzii."
+        },
+        cookies: {
+          title: "10. Folosirea Cookie-urilor",
+          content: "Detalii se regasesc in Politica Cookies."
+        },
+        force: {
+          title: "11. Forta Majora",
+          content: "Nicio parte nu este responsabila pentru neexecutarea obligatiilor in caz de forta majora. Contractul se poate rezilia de drept dupa 15 zile de la producerea evenimentului, daca acesta continua."
+        },
+        jurisdiction: {
+          title: "12. Jurisdictie",
+          content: "Prezentul contract este guvernat de legea romana. Litigiile se solutioneaza amiabil sau de catre instantiele competente din Municipiul Bucuresti."
+        },
+        returns: {
+          title: "13. Politica de Retur",
+          content: "Persoanele fizice au dreptul de a returna produsele in termen de 14 zile. Procedura este:",
+          procedure: [
+            "Cumparatorul notifica Teoship.",
+            "Teoship trimite curierul pentru ridicare.",
+            "Produsul trebuie sa fie in starea initiala si sa includa toate accesoriile.",
+            "Daca produsul este conform, se ramburseaza contravaloarea acestuia. Taxa de retur este suportata de Cumparator."
+          ]
+        }
+      },
+      contact: {
+        title: "Contact",
+        text: "Pentru intrebari sau clarificari privind acesti termeni si conditii, va rugam sa ne contactati."
+      }
     }
   },
   en: {
@@ -396,6 +490,100 @@ export const translations = {
       mission: {
         title: "Our Mission",
         description: "To build a network of warehouses interconnected through our technology and enable seamless operations."
+      }
+    },
+    privacy: {
+      title: "Terms and Conditions",
+      subtitle: "Official document regulating the use of Teoship services",
+      sections: {
+        definitions: {
+          title: "1. Definitions",
+          content: {
+            teoship: "Teoship – is the commercial name of our fulfillment and logistics services company.",
+            seller: "Seller – Teoship",
+            site: "Site – online platform available at www.teoship.ro and its subdomains.",
+            buyer: "Buyer – any individual over 16 years old, or legal entity, who creates an account and places an order.",
+            client: "Client – any person who has or obtains access to content, by any means, including through the account created on the site.",
+            user: "User – any person who completes account creation and accepts the Terms and Conditions.",
+            account: "Account – section of the site consisting of email address and password, which allows placing orders.",
+            order: "Order – electronic document through which the buyer transmits to the seller the intention to purchase.",
+            goods: "Goods – any product listed on the site.",
+            campaign: "Campaign – promotional action with limited duration and stock.",
+            contract: "Contract – distance contract between Seller and Buyer.",
+            content: "Content – any information on the site accessible electronically.",
+            communications: "Commercial Communications – promotional messages sent via email/SMS/etc.",
+            transaction: "Transaction – collection or return of an amount following a sale."
+          }
+        },
+        documents: {
+          title: "2. Contractual Documents",
+          content: "By placing an order, the Buyer accepts communication by phone or email. Order confirmation does not represent its acceptance. The Seller may modify the quantity of ordered goods, informing the Buyer."
+        },
+        policy: {
+          title: "3. Online Sales Policy",
+          content: [
+            "Access to orders is permitted to any user with an account. Teoship reserves the right to restrict access in justified cases.",
+            "Displayed prices are in RON and include VAT. Teoship is not responsible for banking fees applied by payment processors."
+          ]
+        },
+        intellectual: {
+          title: "4. Intellectual Property Rights",
+          content: "The site content is the property of Teoship. Its use is permitted only for personal and non-commercial purposes, without modifications or distribution without written consent from Teoship."
+        },
+        order: {
+          title: "5. Order",
+          content: [
+            "Orders are placed by adding products to cart and completing payment. The Buyer must provide correct data and be available for contact.",
+            "The Seller may cancel orders in case of invalid transaction or incorrect data.",
+            "The Buyer may return products within 14 calendar days without reason, according to OUG no. 34/2014. Refund is made within 14 days maximum. If the product is damaged, Teoship may apply a reconditioning fee."
+          ],
+          highlight: "Returns are valid only for individuals."
+        },
+        confidentiality: {
+          title: "6. Confidentiality",
+          content: "Teoship will maintain confidentiality of provided data. Sending information to the site gives Teoship unlimited rights to use them."
+        },
+        communications: {
+          title: "7. Commercial Communications",
+          content: [
+            "Clients may modify the agreement regarding commercial communications from the account or through the unsubscribe link.",
+            "Teoship may send product suggestions, surveys or market research, without associating data with user identity."
+          ]
+        },
+        delivery: {
+          title: "8. Goods Delivery",
+          content: "Delivery conditions are detailed in the Order Delivery section of the site."
+        },
+        responsibility: {
+          title: "9. Responsibility",
+          content: "The user is responsible for account data confidentiality and accepts the Terms and Conditions in their current form at the time of using the site or placing an order."
+        },
+        cookies: {
+          title: "10. Cookie Usage",
+          content: "Details are found in the Cookie Policy."
+        },
+        force: {
+          title: "11. Force Majeure",
+          content: "Neither party is responsible for non-fulfillment of obligations in case of force majeure. The contract may be terminated by law after 15 days from the occurrence of the event, if it continues."
+        },
+        jurisdiction: {
+          title: "12. Jurisdiction",
+          content: "This contract is governed by Romanian law. Disputes are resolved amicably or by competent courts in Bucharest Municipality."
+        },
+        returns: {
+          title: "13. Return Policy",
+          content: "Individuals have the right to return products within 14 days. The procedure is:",
+          procedure: [
+            "The Buyer notifies Teoship.",
+            "Teoship sends the courier for pickup.",
+            "The product must be in its initial state and include all accessories.",
+            "If the product is compliant, its value is refunded. The return fee is borne by the Buyer."
+          ]
+        }
+      },
+      contact: {
+        title: "Contact",
+        text: "For questions or clarifications regarding these terms and conditions, please contact us."
       }
     }
   }

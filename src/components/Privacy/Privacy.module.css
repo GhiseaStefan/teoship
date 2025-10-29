@@ -1,0 +1,149 @@
+.privacyContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  font-family: var(--font-primary);
+  line-height: 1.6;
+  color: #333;
+}
+
+.privacyHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.privacyTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.privacySubtitle {
+  font-size: 1.1rem;
+  color: #666;
+  font-weight: 400;
+}
+
+.privacyContent {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.privacySection {
+  margin-bottom: 2.5rem;
+}
+
+.privacySection:last-child {
+  margin-bottom: 0;
+}
+
+.privacySectionTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.privacySectionContent {
+  margin-bottom: 1rem;
+}
+
+.privacySectionContent p {
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.privacySectionContent strong {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.privacyList {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+.privacyList li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.privacyHighlight {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-left: 4px solid #3498db;
+  margin: 1rem 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.privacyHighlight strong {
+  color: #2980b9;
+}
+
+.privacyContact {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.privacyContactTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.privacyContactText {
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .privacyContainer {
+    padding: 1rem 0.5rem;
+  }
+  
+  .privacyTitle {
+    font-size: 2rem;
+  }
+  
+  .privacyContent {
+    padding: 1.5rem;
+  }
+  
+  .privacySectionTitle {
+    font-size: 1.3rem;
+  }
+  
+  .privacyList {
+    padding-left: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .privacyContainer {
+    padding: 0.5rem;
+  }
+  
+  .privacyTitle {
+    font-size: 1.8rem;
+  }
+  
+  .privacyContent {
+    padding: 1rem;
+  }
+  
+  .privacySectionTitle {
+    font-size: 1.2rem;
+  }
+}

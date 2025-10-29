@@ -51,7 +51,7 @@ export default function Footer() {
                 <div className={styles.legalLinks}>
                     <a href="#" className={styles.link}>{t('footer.bottom.links.cookies')}</a>
                     <span className={styles.separator}> | </span>
-                    <a href="#" className={styles.link}>{t('footer.bottom.links.privacy')}</a>
+                    <a href="/privacy" className={styles.link}>{t('footer.bottom.links.privacy')}</a>
                 </div>
             </div>
         </footer>
