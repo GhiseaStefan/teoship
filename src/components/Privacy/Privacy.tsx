@@ -17,132 +17,76 @@ export default function Privacy() {
 
             <main className={styles.privacyContent}>
                 <section className={styles.privacySection}>
-                    <h2 className={styles.privacySectionTitle}>{t('privacy.sections.definitions.title')}</h2>
+                    <h2 className={styles.privacySectionTitle}>{t('privacy.sections.introduction.title')}</h2>
                     <div className={styles.privacySectionContent}>
-                        <p>{t('privacy.sections.definitions.content.teoship')}</p>
-                        <p>{t('privacy.sections.definitions.content.seller')}</p>
-                        <p>{t('privacy.sections.definitions.content.site')}</p>
-                        <p>{t('privacy.sections.definitions.content.buyer')}</p>
-                        <p>{t('privacy.sections.definitions.content.client')}</p>
-                        <p>{t('privacy.sections.definitions.content.user')}</p>
-                        <p>{t('privacy.sections.definitions.content.account')}</p>
-                        <p>{t('privacy.sections.definitions.content.order')}</p>
-                        <p>{t('privacy.sections.definitions.content.goods')}</p>
-                        <p>{t('privacy.sections.definitions.content.campaign')}</p>
-                        <p>{t('privacy.sections.definitions.content.contract')}</p>
-                        <p>{t('privacy.sections.definitions.content.content')}</p>
-                        <p>{t('privacy.sections.definitions.content.communications')}</p>
-                        <p>{t('privacy.sections.definitions.content.transaction')}</p>
-                    </div>
-                </section>
-
-                <section className={styles.privacySection}>
-                    <h2 className={styles.privacySectionTitle}>{t('privacy.sections.documents.title')}</h2>
-                    <div className={styles.privacySectionContent}>
-                        <p>{t('privacy.sections.documents.content')}</p>
-                    </div>
-                </section>
-
-                <section className={styles.privacySection}>
-                    <h2 className={styles.privacySectionTitle}>{t('privacy.sections.policy.title')}</h2>
-                    <div className={styles.privacySectionContent}>
-                        {Array.isArray(t('privacy.sections.policy.content')) ? 
-                            t('privacy.sections.policy.content').map((paragraph: string, index: number) => (
+                        {Array.isArray(t('privacy.sections.introduction.content')) ? 
+                            t('privacy.sections.introduction.content').map((paragraph: string, index: number) => (
                                 <p key={index}>{paragraph}</p>
                             )) : 
-                            <p>{t('privacy.sections.policy.content')}</p>
+                            <p>{t('privacy.sections.introduction.content')}</p>
                         }
                     </div>
                 </section>
 
                 <section className={styles.privacySection}>
-                    <h2 className={styles.privacySectionTitle}>{t('privacy.sections.intellectual.title')}</h2>
+                    <h2 className={styles.privacySectionTitle}>{t('privacy.sections.whoWeAre.title')}</h2>
                     <div className={styles.privacySectionContent}>
-                        <p>{t('privacy.sections.intellectual.content')}</p>
+                        <p>{t('privacy.sections.whoWeAre.content')}</p>
                     </div>
                 </section>
 
                 <section className={styles.privacySection}>
-                    <h2 className={styles.privacySectionTitle}>{t('privacy.sections.order.title')}</h2>
+                    <h2 className={styles.privacySectionTitle}>{t('privacy.sections.dataCategories.title')}</h2>
                     <div className={styles.privacySectionContent}>
-                        {Array.isArray(t('privacy.sections.order.content')) ? 
-                            t('privacy.sections.order.content').map((paragraph: string, index: number) => (
+                        {Array.isArray(t('privacy.sections.dataCategories.content')) ? 
+                            t('privacy.sections.dataCategories.content').map((paragraph: string, index: number) => (
                                 <p key={index}>{paragraph}</p>
                             )) : 
-                            <p>{t('privacy.sections.order.content')}</p>
-                        }
-                        <div className={styles.privacyHighlight}>
-                            <p><strong>{t('privacy.sections.order.highlight')}</strong></p>
-                        </div>
-                    </div>
-                </section>
-
-                <section className={styles.privacySection}>
-                    <h2 className={styles.privacySectionTitle}>{t('privacy.sections.confidentiality.title')}</h2>
-                    <div className={styles.privacySectionContent}>
-                        <p>{t('privacy.sections.confidentiality.content')}</p>
-                    </div>
-                </section>
-
-                <section className={styles.privacySection}>
-                    <h2 className={styles.privacySectionTitle}>{t('privacy.sections.communications.title')}</h2>
-                    <div className={styles.privacySectionContent}>
-                        {Array.isArray(t('privacy.sections.communications.content')) ? 
-                            t('privacy.sections.communications.content').map((paragraph: string, index: number) => (
-                                <p key={index}>{paragraph}</p>
-                            )) : 
-                            <p>{t('privacy.sections.communications.content')}</p>
+                            <p>{t('privacy.sections.dataCategories.content')}</p>
                         }
                     </div>
                 </section>
 
                 <section className={styles.privacySection}>
-                    <h2 className={styles.privacySectionTitle}>{t('privacy.sections.delivery.title')}</h2>
+                    <h2 className={styles.privacySectionTitle}>{t('privacy.sections.purposes.title')}</h2>
                     <div className={styles.privacySectionContent}>
-                        <p>{t('privacy.sections.delivery.content')}</p>
+                        {Array.isArray(t('privacy.sections.purposes.content')) ? 
+                            t('privacy.sections.purposes.content').map((paragraph: string, index: number) => (
+                                <p key={index}>{paragraph}</p>
+                            )) : 
+                            <p>{t('privacy.sections.purposes.content')}</p>
+                        }
                     </div>
                 </section>
 
                 <section className={styles.privacySection}>
-                    <h2 className={styles.privacySectionTitle}>{t('privacy.sections.responsibility.title')}</h2>
+                    <h2 className={styles.privacySectionTitle}>{t('privacy.sections.dataSharing.title')}</h2>
                     <div className={styles.privacySectionContent}>
-                        <p>{t('privacy.sections.responsibility.content')}</p>
+                        <p>{t('privacy.sections.dataSharing.content')}</p>
+                    </div>
+                </section>
+
+                <section className={styles.privacySection}>
+                    <h2 className={styles.privacySectionTitle}>{t('privacy.sections.rights.title')}</h2>
+                    <div className={styles.privacySectionContent}>
+                        {Array.isArray(t('privacy.sections.rights.content')) ? 
+                            t('privacy.sections.rights.content').map((paragraph: string, index: number) => (
+                                <p key={index}>{paragraph}</p>
+                            )) : 
+                            <p>{t('privacy.sections.rights.content')}</p>
+                        }
                     </div>
                 </section>
 
                 <section className={styles.privacySection}>
                     <h2 className={styles.privacySectionTitle}>{t('privacy.sections.cookies.title')}</h2>
                     <div className={styles.privacySectionContent}>
-                        <p>{t('privacy.sections.cookies.content')}</p>
-                    </div>
-                </section>
-
-                <section className={styles.privacySection}>
-                    <h2 className={styles.privacySectionTitle}>{t('privacy.sections.force.title')}</h2>
-                    <div className={styles.privacySectionContent}>
-                        <p>{t('privacy.sections.force.content')}</p>
-                    </div>
-                </section>
-
-                <section className={styles.privacySection}>
-                    <h2 className={styles.privacySectionTitle}>{t('privacy.sections.jurisdiction.title')}</h2>
-                    <div className={styles.privacySectionContent}>
-                        <p>{t('privacy.sections.jurisdiction.content')}</p>
-                    </div>
-                </section>
-
-                <section className={styles.privacySection}>
-                    <h2 className={styles.privacySectionTitle}>{t('privacy.sections.returns.title')}</h2>
-                    <div className={styles.privacySectionContent}>
-                        <p>{t('privacy.sections.returns.content')}</p>
-                        <ul className={styles.privacyList}>
-                            {Array.isArray(t('privacy.sections.returns.procedure')) ? 
-                                t('privacy.sections.returns.procedure').map((item: string, index: number) => (
-                                    <li key={index}>{item}</li>
-                                )) : 
-                                <li>{t('privacy.sections.returns.procedure')}</li>
-                            }
-                        </ul>
+                        {Array.isArray(t('privacy.sections.cookies.content')) ? 
+                            t('privacy.sections.cookies.content').map((paragraph: string, index: number) => (
+                                <p key={index}>{paragraph}</p>
+                            )) : 
+                            <p>{t('privacy.sections.cookies.content')}</p>
+                        }
                     </div>
                 </section>
             </main>

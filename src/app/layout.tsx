@@ -8,7 +8,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: {
-    default: 'Teoship - Servicii de Fulfillment pentru E-commerce',
+    default: 'Teoship | Fulfillment',
     template: '%s | Teoship'
   },
   description: 'Servicii complete de fulfillment pentru afacerile tale online. Depozitare, ambalare, livrare și gestionarea inventarului. Soluții scalabile pentru e-commerce.',
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     locale: 'ro_RO',
     url: 'https://teoship.ro',
     siteName: 'Teoship',
-    title: 'Teoship - Servicii de Fulfillment pentru E-commerce',
+    title: 'Teoship | Fulfillment',
     description: 'Servicii complete de fulfillment pentru afacerile tale online. Depozitare, ambalare, livrare și gestionarea inventarului.',
     images: [
       {
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Teoship - Servicii de Fulfillment pentru E-commerce',
+    title: 'Teoship | Fulfillment',
     description: 'Servicii complete de fulfillment pentru afacerile tale online.',
     images: ['/images/banner.png'],
   },

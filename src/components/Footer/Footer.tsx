@@ -49,7 +49,7 @@ export default function Footer() {
                     {t('footer.bottom.copyright')}
                 </div>
                 <div className={styles.legalLinks}>
-                    <a href="#" className={styles.link}>{t('footer.bottom.links.cookies')}</a>
+                    <a href="/cookies" className={styles.link}>{t('footer.bottom.links.cookies')}</a>
                     <span className={styles.separator}> | </span>
                     <a href="/privacy" className={styles.link}>{t('footer.bottom.links.privacy')}</a>
                 </div>

@@ -199,97 +199,137 @@ export const translations = {
       }
     },
     privacy: {
-      title: "Termeni si Conditii",
-      subtitle: "Documentul oficial care reglementeaza utilizarea serviciilor Teoship",
+      title: "Politica de confidentialitate",
+      subtitle: "Prelucrarea datelor cu caracter personal",
       sections: {
-        definitions: {
-          title: "1. Definitii",
-          content: {
-            teoship: "Teoship – este denumirea comerciala a companiei noastre de servicii de fulfillment si logistica.",
-            seller: "Vanator – Teoship",
-            site: "Site – platforma online disponibila la www.teoship.ro si subdomeniile acestuia.",
-            buyer: "Cumparator – orice persoana fizica peste 16 ani, sau persoana juridica, care isi creeaza un cont si efectueaza o comanda.",
-            client: "Client – orice persoana care are sau obtine acces la continut, prin orice mijloc, inclusiv prin contul creat pe site.",
-            user: "Utilizator – orice persoana care finalizeaza crearea unui cont si accepta Termenii si Conditiile.",
-            account: "Cont – sectiunea din site formata din adresa de e-mail si parola, care permite plasarea comenzilor.",
-            order: "Comanda – documentul electronic prin care cumparatorul transmite vanatorului intentia de achizitie.",
-            goods: "Bunuri – orice produs listat pe site.",
-            campaign: "Campanie – actiune promotionala cu durata si stoc limitat.",
-            contract: "Contract – contractul la distanta intre Vanator si Cumparator.",
-            content: "Continut – orice informatie de pe site accesibila electronic.",
-            communications: "Comunicari Comerciale – mesaje promotionale trimise prin e-mail/SMS/etc.",
-            transaction: "Tranzactie – incasarea sau returnarea unei sume in urma unei vanzari."
-          }
-        },
-        documents: {
-          title: "2. Documente Contractuale",
-          content: "Prin plasarea unei comenzi, Cumparatorul accepta comunicarea prin telefon sau e-mail. Confirmarea comenzii nu reprezinta acceptarea acesteia. Vanatorul poate modifica cantitatea bunurilor comandate, informand Cumparatorul."
-        },
-        policy: {
-          title: "3. Politica de Vanzare Online",
+        introduction: {
+          title: "Politica de Confidentialitate cu privire la prelucrarea datelor cu caracter personal",
           content: [
-            "Accesul la comanda este permis oricarui utilizator cu cont. Teoship isi rezerva dreptul de a restriciona accesul in cazuri justificate.",
-            "Preturile afisate sunt in RON si includ TVA. Teoship nu raspunde pentru comisioanele bancare aplicate de procesatorii de plati."
+            "Asigurarea dreptului la protectia datelor cu caracter personal reprezinta un angajament fundamental al Teoship, astfel toate eforturile si resursele vor fi depuse pentru a administra datele dumneavoastra in conditii de siguranta si in deplina concordanta cu Regulamentul (UE) 2016/679 (\"Regulamentul general privind protectia datelor\" sau \"GDPR\") precum si cu orice alta legislatie aplicabila pe teritoriul Romaniei.",
+            "Prelucrarea datelor cu caracter personal reprezinta orice operatiune sau set de operatiuni care se efectueaza asupra datelor cu caracter personal, prin mijloace automate sau neautomate, cum ar fi colectarea, inregistrarea, organizarea, stocarea, adaptarea ori modificarea, extragerea, consultarea, utilizarea, dezvaluirea catre terti prin transmitere, diseminare sau in orice alt mod, alaturarea ori combinarea, blocarea, stergerea sau distrugerea.",
+            "Deoarece unul din principiile esentiale ale acestui cadru legal il reprezinta transparenta, acest document ofera informatiile necesare despre modul in care colectam, utilizam, transferam si protejam datele dumneavoastra cu caracter personal in momentul interactionarii cu Teoship in legatura cu produsele si serviciile noastre.",
+            "Conform conditiilor de utilizare ale prezentului site va rugam sa luati la cunostinta faptul ca va sunt garantate drepturile prevazute de lege, respectiv dreptul la informare, dreptul de acces la date, dreptul de interventie, dreptul de opozitie, dreptul de a nu fi supus unei decizii individuale, dreptul de va adresa justitiei in caz de incalcare a drepturilor garantate de Legea 677/2001 pentru protectia persoanelor cu privire la prelucrarea datelor cu caracter personal si libera circulatie a acestor date."
           ]
         },
-        intellectual: {
-          title: "4. Dreptul la Proprietate Intelectuala",
-          content: "Continutul site-ului este proprietatea Teoship. Utilizarea acestuia este permisa doar in scopuri personale si non-comerciale, fara modificari sau distribuire fara acordul scris al Teoship."
+        whoWeAre: {
+          title: "Cine suntem",
+          content: "Teoship este denumirea comerciala a Ding Communication SRL, persoana juridica de nationalitate romana, avand sediul social in Dolj, sat Dobridor,comuna Motatei, str.Grefierului nr. 2, avand numar de ordine in Registrul Comertului J16/700/2010, cod unic de inregistrare fiscala RO27078460."
         },
-        order: {
-          title: "5. Comanda",
+        dataCategories: {
+          title: "Ce categorii de date cu caracter personal prelucram",
           content: [
-            "Comenzile se efectueaza prin adaugarea produselor in cos si finalizarea platii. Cumparatorul trebuie sa ofere date corecte si sa fie disponibil pentru contact.",
-            "Vanatorul poate anula comenzi in caz de tranzactie invalida sau date incorecte.",
-            "Cumparatorul poate returna produsele in 14 zile calendaristice fara motiv, conform OUG nr. 34/2014. Rambursarea se face in cel mult 14 zile. Daca produsul este deteriorat, Teoship poate aplica o taxa de reconditionare."
-          ],
-          highlight: "Retururile sunt valabile doar pentru persoane fizice."
-        },
-        confidentiality: {
-          title: "6. Confidentialitate",
-          content: "Teoship va pastra confidentialitatea datelor furnizate. Trimiterea de informatii catre site ofera Teoship drepturi nelimitate de utilizare a acestora."
-        },
-        communications: {
-          title: "7. Comunicari Comerciale",
-          content: [
-            "Clientii pot modifica acordul privind comunicarile comerciale din cont sau prin linkul de dezabonare.",
-            "Teoship poate trimite sugestii de produse, sondaje sau cercetari de piata, fara a asocia datele cu identitatea utilizatorului."
+            "In general, colectam datele dvs. cu caracter personal direct de la dumneavoastra, astfel incat aveti controlul asupra tipului de informatie pe care ne-o oferiti. Informatiile pe care le primim de la dumneavoastra pot fi urmatoarele:",
+            "Cand va creati un cont pe platforma Teoship, ne transmiteti: numele si prenumele, adresa de e-mail si numarul de telefon;",
+            "Cand plasati o comanda, ne furnizati informatii precum: produsul dorit, numele si prenumele, adresa de e-mail si numarul de telefon, adresa de livrare, detalii de facturare, etc."
           ]
         },
-        delivery: {
-          title: "8. Livrarea Bunurilor",
-          content: "Conditiile de livrare sunt detaliate in sectiunea Livrarea comenzilor a site-ului."
+        purposes: {
+          title: "Scopurile si temeiurile prelucrarii datelor cu caracter personal",
+          content: [
+            "Prin inscrierea pe site/efectuarea unei comenzi si completarea datelor personale in formularele de inscriere, Utilizatorii / Clientii declara ca sunt de acord ca toate datele lor personale sa fie incluse in baza de date a Teoship si isi dau acordul expres si neechivoc ca toate datele lor personale sa fie stocate si utilizate pentru:",
+            "Pentru prestarea serviciilor Teoship in beneficiul dumneavoastra:",
+            "Crearea si administrarea contului pe platforma Teoship;",
+            "Prelucrarea comenzilor (preluare, validare, expediere, facturare);",
+            "Solutionarea problemelor de orice natura referitoare la o comanda;",
+            "Asigurarea serviciilor de Suport Clienti, inclusiv raspunsurile la intrebarile dumneavoastra cu privire la comenzile dumneavoastra sau bunurile si serviciile oferite de Teoship;",
+            "Pentru imbunatatirea serviciilor noastre:",
+            "Avem in permanenta dorinta de a va oferi cea mai buna experienta de cumparare online. Pentru aceasta, putem colecta si utiliza anumite informatii in legatura cu comportamentul dumneavoastra de Cumparator, va putem invita la completarea unor chestionare de satisfactie in urma finalizarii unei comenzi.",
+            "Pentru marketing:",
+            "Activitati de marketing prin primirea de mesaje de informare sau comerciale (oferte,promotii,mesaje publicitare si de marketing privind activitatea Teoship si a tertilor cu care Teoship are relatii de orice natura) la adresele de e-mail comunicate Teoship;",
+            "Participarea la concursuri organizate de Teoship, promotii;",
+            "Statistici interne necesare pentru imbunatatirea calitatii serviciilor oferite si imaginii Site-ului si pentru crearea unor elemente caracteristice noi, promotii, functionalitati si servicii noi;"
+          ]
         },
-        responsibility: {
-          title: "9. Raspundere",
-          content: "Utilizatorul este responsabil pentru confidentialitatea datelor contului si accepta Termenii si Conditiile in forma actuala la momentul folosirii site-ului sau al plasarii comenzii."
+        dataSharing: {
+          title: "Cui transmitem datele dvs. cu caracter personal",
+          content: "Teoship nu va dezvalui nici un fel de informatie despre Utilizatorii / Clientii site-ului sau fara a primi mai intai consimtamantul expres al acestora in aceasta privinta. In acelasi timp insa, poate dezvalui informatii si date cu caracter personal atunci cand acest lucru este prevazut expres prin lege. Informatiile Clientului cu caracter personal pot fi furnizate si catre Parchetul General, Politie, instantele judecatoresti si altor organe abilitate ale statului, in baza si in limitele prevederilor legale si ca urmare a unor cereri expres formulate."
+        },
+        rights: {
+          title: "Ce drepturi aveti",
+          content: [
+            "Conform Legii nr. 677/2001, Utilizatorii / Clientii beneficiaza de dreptul la informare (art. 12), acces la date (art. 13), interventie (art. 14), opozitie (art. 15), de a nu fi supus unei decizii individuale (art. 17) si de a se adresa justitiei (art. 18). Totodata, acestia au dreptul de a se opune prelucrarii datelor personale care ii privesc si sa solicite stergerea datelor. Pentru exercitarea acestor drepturi, orice persoana se poate adresa cu o cerere scrisa, datata si semnata la sediul Teoship.",
+            "Pe baza unei cereri scrise, datate si semnate, expediate pe adresa Teoship, str. Sergent Constantin Ghercu, nr. 14, etaj 5, sector 6, Bucuresti, cod postal 060201, Utilizatorii / Clientii isi pot exercita, in mod gratuit, urmatoarele drepturi:",
+            "o data pe an, confirmarea faptului ca datele personale sunt sau nu prelucrate;",
+            "sa intervina asupra datelor transmise;",
+            "sa se opuna prelucrarii datelor pentru motive intemeiate si legitime legate de situatia lor particulara.",
+            "Orice persoana are dreptul de a se opune, pentru motive legitime, la prelucrarea datelor ce o privesc. Acest drept de opozitie poate fi exclus pentru anumite prelucrari prevazute de lege (de ex.: prelucrari efectuate de serviciile financiare si fiscale, de politie, justitie, securitate sociala). Prin urmare, aceasta mentiune nu poate figura daca prelucrarea are un caracter obligatoriu; orice persoana are, de asemenea, dreptul de a se opune, in mod gratuit fara nici o justificare, la prelucrarile datelor sale personale in scopuri de marketing direct. Detalii la www.dataprotection.ro"
+          ]
         },
         cookies: {
-          title: "10. Folosirea Cookie-urilor",
-          content: "Detalii se regasesc in Politica Cookies."
-        },
-        force: {
-          title: "11. Forta Majora",
-          content: "Nicio parte nu este responsabila pentru neexecutarea obligatiilor in caz de forta majora. Contractul se poate rezilia de drept dupa 15 zile de la producerea evenimentului, daca acesta continua."
-        },
-        jurisdiction: {
-          title: "12. Jurisdictie",
-          content: "Prezentul contract este guvernat de legea romana. Litigiile se solutioneaza amiabil sau de catre instantiele competente din Municipiul Bucuresti."
-        },
-        returns: {
-          title: "13. Politica de Retur",
-          content: "Persoanele fizice au dreptul de a returna produsele in termen de 14 zile. Procedura este:",
-          procedure: [
-            "Cumparatorul notifica Teoship.",
-            "Teoship trimite curierul pentru ridicare.",
-            "Produsul trebuie sa fie in starea initiala si sa includa toate accesoriile.",
-            "Daca produsul este conform, se ramburseaza contravaloarea acestuia. Taxa de retur este suportata de Cumparator."
+          title: "Colectarea automata de date cu caracter non-personal (COOKIES)",
+          content: [
+            "Politica de utilizare cookie-uri si tehnologii similare",
+            "In unele cazuri, este posibil ca Teoship sa colecteze informatii cu caracter non-personal despre Utilizatori / Clienti. Exemple de informatii de acest tip sunt: tipul de browser folosit, sistemul de operare al calculatorului folosit si numele domeniului website-ului de unde a fost facute conexiunea la site.",
+            "In timpul vizionarii site-ului, Teoship va putea stoca anumite informatii despre Utilizator / Client. Aceste informatii vor fi sub forma unui fisier \"Cookie\" sau a unui fisier similar.",
+            "Ce sunt cookie-urile?",
+            "Cookie-ul este un fisier de mici dimensiuni, format din litere si numere, care va fi stocat pe computerul, terminalul mobil sau alte echipamente ale unui utilizator de pe care se acceseaza internetul. Cookie-ul este instalat prin solicitarea emisa de catre terminalul utilizatorului catre un server eMAG sau catre un server al unei terte parti.",
+            "La ce sunt folosite cookie-urile?",
+            "Aceste fisiere \"Cookies\" sunt folosite pentru:",
+            "Buna functionare a site-ului;",
+            "Analizarea comportamentului vizitatorilor site-uli pentru publicitate.",
+            "Construirea unui site care sa raspunda cat mai bine intereselor si preferintelor Utilizatorilor / Clientilor.",
+            "Blocare cookie-uri",
+            "Cu cele mai multe browsere de Internet se pot sterge sau bloca fisierele \"Cookies\" sau se poate primi o atentionare inaintea primirii unui astfel de fisier. Teoship recomanda Utilizatorilor / Clientilor sa consulte instructiunile browser-ului sau fisierul de ajutor pentru a afla mai multe informatii despre aceste functii.",
+            "In cazul in care doriti sa blocati cookie-urile, unele functionalitati ale site-ului vor fi oprite, iar acest lucru poate genera anumite disfunctionalitati sau erori in folosirea site-ului nostru."
           ]
         }
-      },
-      contact: {
-        title: "Contact",
-        text: "Pentru intrebari sau clarificari privind acesti termeni si conditii, va rugam sa ne contactati."
+      }
+    },
+    cookies: {
+      title: "Politica Cookie",
+      subtitle: "Documentul oficial care reglementeaza utilizarea cookie-urilor pe site-ul Teoship",
+      sections: {
+        what: {
+          title: "1. Ce sunt cookie-urile?",
+          content: "Cookie-urile sunt mici fisiere text care sunt plasate pe dispozitivul dumneavoastra atunci cand vizitati un site web. Acestea sunt utilizate pentru a face site-urile sa functioneze mai eficient si pentru a furniza informatii proprietarilor site-ului."
+        },
+        types: {
+          title: "2. Tipuri de cookie-uri pe site-ul nostru",
+          content: [
+            "Cookie-uri esentiale - necesare pentru functionarea de baza a site-ului",
+            "Cookie-uri de performanta - colecteaza informatii despre modul in care utilizatorii interactioneaza cu site-ul",
+            "Cookie-uri functionale - permit site-ului sa-si aminteasca alegerile pe care le faceti",
+            "Cookie-uri de marketing - utilizate pentru a va afisa reclame relevante"
+          ]
+        },
+        essential: {
+          title: "3. Cookie-uri esentiale",
+          content: "Aceste cookie-uri sunt necesare pentru functionarea site-ului si nu pot fi dezactivate. Ele includ cookie-uri care va permit sa navigati prin site si sa utilizati functiile esentiale, cum ar fi zonele securizate ale site-ului."
+        },
+        analytics: {
+          title: "4. Cookie-uri de analiza",
+          content: "Utilizam cookie-uri de analiza pentru a intelege cum utilizatorii interactioneaza cu site-ul nostru. Aceste informatii ne ajuta sa imbunatatim performanta site-ului si sa oferim o experienta mai buna utilizatorilor."
+        },
+        marketing: {
+          title: "5. Cookie-uri de marketing",
+          content: "Aceste cookie-uri sunt utilizate pentru a va afisa reclame relevante pe site-uri terte. Ele pot fi setate de noi sau de partenerii nostri pentru a construi un profil al intereselor dumneavoastra."
+        },
+        thirdParty: {
+          title: "6. Cookie-uri terte",
+          content: "Site-ul nostru poate contine cookie-uri de la terte parti, cum ar fi Google Analytics, Facebook sau alte servicii de analiza. Aceste cookie-uri sunt supuse politicilor de confidentialitate ale respectivelor companii."
+        },
+        management: {
+          title: "7. Gestionarea cookie-urilor",
+          content: "Puteti controla si gestiona cookie-urile in mai multe moduri:",
+          steps: [
+            "Prin setarile browserului dumneavoastra",
+            "Prin panoul de control al cookie-urilor de pe site-ul nostru",
+            "Prin dezactivarea cookie-urilor specifice in setarile browserului",
+            "Prin contactarea directa a echipei noastre"
+          ]
+        },
+        duration: {
+          title: "8. Durata de viata a cookie-urilor",
+          content: "Cookie-urile pot fi temporare (sesiune) sau permanente. Cookie-urile de sesiune se sterg automat cand inchideti browserul, in timp ce cookie-urile permanente raman pe dispozitivul dumneavoastra pentru o perioada determinata sau pana le stergeti manual."
+        },
+        updates: {
+          title: "9. Actualizari ale politicii",
+          content: "Ne rezervam dreptul de a actualiza aceasta politica de cookie-uri in orice moment. Orice modificari vor fi publicate pe aceasta pagina cu o noua data de actualizare. Va rugam sa verificati periodic aceasta pagina pentru a fi la curent cu orice modificari."
+        },
+        contact: {
+          title: "10. Contact",
+          content: "Daca aveti intrebari despre aceasta politica de cookie-uri sau despre modul in care utilizam cookie-urile pe site-ul nostru, va rugam sa ne contactati prin formularul de contact sau la adresa de email specificata in sectiunea Contact."
+        }
       }
     }
   },
@@ -584,6 +624,63 @@ export const translations = {
       contact: {
         title: "Contact",
         text: "For questions or clarifications regarding these terms and conditions, please contact us."
+      }
+    },
+    cookies: {
+      title: "Cookie Policy",
+      subtitle: "Official document regulating the use of cookies on the Teoship website",
+      sections: {
+        what: {
+          title: "1. What are cookies?",
+          content: "Cookies are small text files that are placed on your device when you visit a website. They are used to make websites work more efficiently and to provide information to website owners."
+        },
+        types: {
+          title: "2. Types of cookies on our website",
+          content: [
+            "Essential cookies - necessary for basic website functionality",
+            "Performance cookies - collect information about how users interact with the website",
+            "Functional cookies - allow the website to remember choices you make",
+            "Marketing cookies - used to show you relevant advertisements"
+          ]
+        },
+        essential: {
+          title: "3. Essential cookies",
+          content: "These cookies are necessary for the website to function and cannot be disabled. They include cookies that allow you to navigate through the site and use essential features, such as secure areas of the website."
+        },
+        analytics: {
+          title: "4. Analytics cookies",
+          content: "We use analytics cookies to understand how users interact with our website. This information helps us improve website performance and provide a better experience for users."
+        },
+        marketing: {
+          title: "5. Marketing cookies",
+          content: "These cookies are used to show you relevant advertisements on third-party sites. They may be set by us or our partners to build a profile of your interests."
+        },
+        thirdParty: {
+          title: "6. Third-party cookies",
+          content: "Our website may contain cookies from third parties, such as Google Analytics, Facebook or other analytics services. These cookies are subject to the privacy policies of the respective companies."
+        },
+        management: {
+          title: "7. Cookie management",
+          content: "You can control and manage cookies in several ways:",
+          steps: [
+            "Through your browser settings",
+            "Through the cookie control panel on our website",
+            "By disabling specific cookies in browser settings",
+            "By contacting our team directly"
+          ]
+        },
+        duration: {
+          title: "8. Cookie lifespan",
+          content: "Cookies can be temporary (session) or permanent. Session cookies are automatically deleted when you close your browser, while permanent cookies remain on your device for a determined period or until you manually delete them."
+        },
+        updates: {
+          title: "9. Policy updates",
+          content: "We reserve the right to update this cookie policy at any time. Any changes will be published on this page with a new update date. Please check this page periodically to stay informed of any changes."
+        },
+        contact: {
+          title: "10. Contact",
+          content: "If you have questions about this cookie policy or how we use cookies on our website, please contact us through the contact form or at the email address specified in the Contact section."
+        }
       }
     }
   }

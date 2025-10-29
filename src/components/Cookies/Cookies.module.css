@@ -1,0 +1,149 @@
+.cookiesContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  font-family: var(--font-primary);
+  line-height: 1.6;
+  color: #333;
+}
+
+.cookiesHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.cookiesTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.cookiesSubtitle {
+  font-size: 1.1rem;
+  color: #666;
+  font-weight: 400;
+}
+
+.cookiesContent {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.cookiesSection {
+  margin-bottom: 2.5rem;
+}
+
+.cookiesSection:last-child {
+  margin-bottom: 0;
+}
+
+.cookiesSectionTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.cookiesSectionContent {
+  margin-bottom: 1rem;
+}
+
+.cookiesSectionContent p {
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.cookiesSectionContent strong {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.cookiesList {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+.cookiesList li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.cookiesHighlight {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-left: 4px solid #3498db;
+  margin: 1rem 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.cookiesHighlight strong {
+  color: #2980b9;
+}
+
+.cookiesContact {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.cookiesContactTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.cookiesContactText {
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .cookiesContainer {
+    padding: 1rem 0.5rem;
+  }
+  
+  .cookiesTitle {
+    font-size: 2rem;
+  }
+  
+  .cookiesContent {
+    padding: 1.5rem;
+  }
+  
+  .cookiesSectionTitle {
+    font-size: 1.3rem;
+  }
+  
+  .cookiesList {
+    padding-left: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .cookiesContainer {
+    padding: 0.5rem;
+  }
+  
+  .cookiesTitle {
+    font-size: 1.8rem;
+  }
+  
+  .cookiesContent {
+    padding: 1rem;
+  }
+  
+  .cookiesSectionTitle {
+    font-size: 1.2rem;
+  }
+}
