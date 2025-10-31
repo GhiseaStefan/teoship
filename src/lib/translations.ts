@@ -26,7 +26,7 @@ export const translations = {
         heading: "Ce oferim?",
         title: "Servicii complete de fulfillment",
         description: "Receptie. Depozitare. Ambalare. Livrare.",
-        details: "Capacitate de depozitare de 19.000 m² si capacitatea de a gestiona peste 4.500 comenzi pe zi."
+        details: "Capacitate de depozitare de 5.500 m² si capacitatea de a gestiona peste 4.500 comenzi pe zi."
       },
       benefits: {
         heading: "Ce obtii?",
@@ -363,7 +363,7 @@ export const translations = {
         heading: "What do we offer?",
         title: "Complete fulfillment services",
         description: "Reception. Storage. Packaging. Delivery.",
-        details: "Storage capacity of 19,000 m² and the ability to handle over 4,500 orders per day."
+        details: "Storage capacity of 5,500 m² and the ability to handle over 4,500 orders per day."
       },
       benefits: {
         heading: "What do you get?",
