@@ -52,7 +52,7 @@ export default function Navbar() {
                     </div>
 
                     {/* Hamburger Menu */}
-                    <div 
+                    <div
                         className={`${styles.hamburger} ${isMobileMenuOpen ? styles.open : ''}`}
                         onClick={toggleMobileMenu}
                     >
@@ -63,21 +63,22 @@ export default function Navbar() {
 
                     {/* Navigation Links */}
                     <div className={`${styles.navbarMenu} ${isMobileMenuOpen ? styles.open : ''}`}>
-                        <a href="/" className={styles.navbarLink} onClick={closeMobileMenu}>{t('navbar.home')}</a>
-                        <a href="/about" className={styles.navbarLink} onClick={closeMobileMenu}>{t('navbar.about')}</a>
-                        <a href="/advantages" className={styles.navbarLink} onClick={closeMobileMenu}>{t('navbar.advantages')}</a>
-                        <a href="/contact" className={styles.navbarLink} onClick={closeMobileMenu}>{t('navbar.contact')}</a>
+                        <a href="/" className={`${styles.navbarLink} ${pathname === '/' ? styles.active : ''}`} onClick={closeMobileMenu}>{t('navbar.home')}</a>
+                        <a href="/about" className={`${styles.navbarLink} ${pathname === '/about' ? styles.active : ''}`} onClick={closeMobileMenu}>{t('navbar.about')}</a>
+                        <a href="/advantages" className={`${styles.navbarLink} ${pathname === '/advantages' ? styles.active : ''}`} onClick={closeMobileMenu}>{t('navbar.advantages')}</a>
+                        <a href="/pricing" className={`${styles.navbarLink} ${pathname === '/pricing' ? styles.active : ''}`} onClick={closeMobileMenu}>{t('navbar.pricing')}</a>
+                        <a href="/contact" className={`${styles.navbarLink} ${pathname === '/contact' ? styles.active : ''}`} onClick={closeMobileMenu}>{t('navbar.contact')}</a>
                     </div>
 
                     {/* Language Switcher */}
                     <div className={styles.languageSwitcher}>
-                        <button 
+                        <button
                             onClick={() => changeLanguage('ro')}
                             className={`${styles.langButton} ${locale === 'ro' ? styles.active : ''}`}
                         >
                             RO
                         </button>
-                        <button 
+                        <button
                             onClick={() => changeLanguage('en')}
                             className={`${styles.langButton} ${locale === 'en' ? styles.active : ''}`}
                         >

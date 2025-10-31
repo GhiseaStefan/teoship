@@ -4,6 +4,7 @@ export const translations = {
       home: "Acasa",
       about: "Despre",
       advantages: "Avantaje",
+      pricing: "Preturi",
       contact: "Contact"
     },
     banner: {
@@ -16,14 +17,15 @@ export const translations = {
       subtitle: "Solutii personalizate de fulfillment pentru cresterea afacerii tale. Tehnologie avansata si procese optimizate.",
       pricing: {
         title: "Preturi",
+        vatNote: "Preturile sunt cu TVA inclus",
         tabs: {
           inOut: "In/Out",
           storage: "Depozitare",
           processing: "Procesare"
         },
         inOut: {
-          labeling: "Etichetare cu tot cu eticheta noastră",
-          receptionPallet: "In/out la recepție (palet)",
+          labeling: "Etichetare cu tot cu eticheta noastra",
+          receptionPallet: "In/out la receptie (palet)",
           receptionBox: "In/out per bax pentru depozitare la raft"
         },
         storage: {
@@ -93,8 +95,8 @@ export const translations = {
     section4: {
       features: {
         crossBorder: {
-          title: "Cost fix",
-          description: "Cost fix transparent de 1.55 Euro pentru comenzile standard, fara surprize sau costuri ascunse. Pretul ramane constant indiferent de volumul comenzilor."
+          title: "Preturi transparente",
+          description: "Oferim preturi clare si transparente, fara surprize sau costuri ascunse. Toate tarifele sunt stabilite in avans si raman constante, asigurandu-ti predictibilitate in planificarea bugetului."
         },
         scalable: {
           title: "Tarifare scalabila",
@@ -193,7 +195,7 @@ export const translations = {
         },
         noStress: {
           title: "Eliminarea stresului operational",
-          description: "Ai la dispozitie un consultant specializat cu care poti discuta procesele operationale in intervalul orar 08:00-18:00."
+          description: "Ai la dispozitie un consultant specializat cu care poti discuta procesele operationale in intervalul orar 09:00-16:30."
         },
         noDelays: {
           title: "Livrari fara intarzieri",
@@ -372,6 +374,7 @@ export const translations = {
       home: "Home",
       about: "About",
       advantages: "Advantages",
+      pricing: "Pricing",
       contact: "Contact"
     },
     banner: {
@@ -384,6 +387,7 @@ export const translations = {
       subtitle: "Personalized fulfillment solutions for your business growth. Advanced technology and optimized processes.",
       pricing: {
         title: "Pricing",
+        vatNote: "Prices include VAT",
         tabs: {
           inOut: "In/Out",
           storage: "Storage",
@@ -461,8 +465,8 @@ export const translations = {
     section4: {
       features: {
         crossBorder: {
-          title: "Fixed cost",
-          description: "Transparent fixed cost of 1.55 Euro for standard orders, with no surprises or hidden fees. The price remains constant regardless of order volume."
+          title: "Transparent pricing",
+          description: "We offer clear and transparent pricing with no surprises or hidden fees. All rates are set in advance and remain constant, giving you predictability in budget planning."
         },
         scalable: {
           title: "Scalable pricing",
@@ -561,7 +565,7 @@ export const translations = {
         },
         noStress: {
           title: "Elimination of operational stress",
-          description: "You have access to a specialized consultant to discuss operational processes during business hours 08:00-18:00."
+          description: "You have access to a specialized consultant to discuss operational processes during business hours 09:00-16:30."
         },
         noDelays: {
           title: "Delivery without delays",

@@ -1,0 +1,265 @@
+.pricing {
+  background: white;
+  padding: 4rem 0 0 0;
+}
+
+/* Pricing Tabs Section */
+.pricingContainer {
+  padding: 3rem 2rem 3rem 2rem;
+  background: white;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.pricingTitle {
+  font-family: var(--font-secondary);
+  font-size: 2.5rem;
+  font-weight: var(--font-weight-bold);
+  color: #1f2937;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.pricingVatNote {
+  font-family: var(--font-primary);
+  font-size: 0.875rem;
+  color: #6b7280;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.tabsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.tab {
+  padding: 0.75rem 1.5rem;
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  font-weight: 600;
+  color: #6b7280;
+  background: #f3f4f6;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tab:hover {
+  background: #e5e7eb;
+  color: #3396d3;
+}
+
+.activeTab {
+  background: #3396d3;
+  color: white;
+  border-color: #3396d3;
+}
+
+.activeTab:hover {
+  background: #2a7ba8;
+}
+
+.pricingContent {
+  min-height: 280px;
+  height: auto;
+}
+
+.pricingList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  min-height: 280px;
+}
+
+.pricingItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem;
+  background: #f9fafb;
+  border-radius: 8px;
+  border-left: 4px solid #3396d3;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pricingItem:hover {
+  transform: translateX(5px);
+  box-shadow: 0 4px 12px rgba(51, 150, 211, 0.15);
+}
+
+.pricingLabel {
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  color: #1f2937;
+  flex: 1;
+  text-align: left;
+}
+
+.pricingValue {
+  font-family: var(--font-secondary);
+  font-size: 1.25rem;
+  font-weight: var(--font-weight-bold);
+  color: #3396d3;
+  white-space: nowrap;
+  margin-left: 1rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .pricing {
+    padding: 2rem 0 0 0;
+  }
+
+  .pricingContainer {
+    padding: 2rem 1.5rem 2rem 1.5rem;
+  }
+
+  .pricingTitle {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.2;
+  }
+
+  .pricingVatNote {
+    font-size: 0.875rem;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+  }
+
+  .tabsContainer {
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+    background: #f9fafb;
+    border-radius: 12px;
+  }
+
+  .tab {
+    padding: 0.875rem 1.25rem;
+    font-size: 0.95rem;
+    flex: 1;
+    min-width: 0;
+    border-radius: 8px;
+  }
+
+  .pricingContent {
+    min-height: auto;
+  }
+
+  .pricingList {
+    gap: 1rem;
+    min-height: auto;
+  }
+
+  .pricingItem {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 1.5rem;
+    border-left: 4px solid #3396d3;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  .pricingItem:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(51, 150, 211, 0.15);
+  }
+
+  .pricingLabel {
+    font-size: 1rem;
+    line-height: 1.5;
+    width: 100%;
+  }
+
+  .pricingValue {
+    font-size: 1.5rem;
+    margin-left: 0;
+    align-self: flex-start;
+    width: 100%;
+    padding-top: 0.5rem;
+    border-top: 1px solid #e5e7eb;
+  }
+}
+
+@media (max-width: 480px) {
+  .pricing {
+    padding: 1.5rem 0 0 0;
+  }
+
+  .pricingContainer {
+    padding: 1.5rem 1rem 1.5rem 1rem;
+  }
+
+  .pricingTitle {
+    font-size: 1.75rem;
+    margin-bottom: 0.75rem;
+    padding: 0 0.5rem;
+  }
+
+  .pricingVatNote {
+    font-size: 0.8rem;
+    margin-bottom: 1.75rem;
+    padding: 0 0.5rem;
+  }
+
+  .tabsContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 0.375rem;
+    padding: 0.5rem;
+    background: #f9fafb;
+    border-radius: 12px;
+    margin-bottom: 1.75rem;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .tabsContainer::-webkit-scrollbar {
+    display: none;
+  }
+
+  .tab {
+    flex: 1;
+    min-width: 0;
+    padding: 0.75rem 0.5rem;
+    font-size: 0.85rem;
+    border-radius: 8px;
+    white-space: nowrap;
+    text-align: center;
+  }
+
+  .pricingContent {
+    min-height: 420px;
+  }
+
+  .pricingList {
+    gap: 0.875rem;
+    min-height: 420px;
+  }
+
+  .pricingItem {
+    padding: 1.25rem;
+    border-radius: 12px;
+    border-left-width: 3px;
+  }
+
+  .pricingLabel {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  .pricingValue {
+    font-size: 1.375rem;
+    padding-top: 0.75rem;
+  }
+}
