@@ -14,6 +14,37 @@ export const translations = {
     section1: {
       title: "Servicii de fulfillment moderne pentru afacerile tale online",
       subtitle: "Solutii personalizate de fulfillment pentru cresterea afacerii tale. Tehnologie avansata si procese optimizate.",
+      pricing: {
+        title: "Preturi",
+        tabs: {
+          inOut: "In/Out",
+          storage: "Depozitare",
+          processing: "Procesare"
+        },
+        inOut: {
+          labeling: "Etichetare cu tot cu eticheta noastră",
+          receptionPallet: "In/out la recepție (palet)",
+          receptionBox: "In/out per bax pentru depozitare la raft"
+        },
+        storage: {
+          pallet: "1 palet",
+          rack: "1 raft (1m x 0.4m x 1.80m)"
+        },
+        processing: {
+          package: "per colet"
+        },
+        currency: {
+          euro: "euro",
+          lei: "lei"
+        },
+        per: {
+          unit: "unitate",
+          pallet: "palet",
+          box: "bax",
+          month: "luna",
+          package: "colet"
+        }
+      },
       stats: {
         deliveries: "tehnologii integrate",
         centers: "servicii disponibile",
@@ -351,6 +382,37 @@ export const translations = {
     section1: {
       title: "Modern fulfillment services for your online business",
       subtitle: "Personalized fulfillment solutions for your business growth. Advanced technology and optimized processes.",
+      pricing: {
+        title: "Pricing",
+        tabs: {
+          inOut: "In/Out",
+          storage: "Storage",
+          processing: "Processing"
+        },
+        inOut: {
+          labeling: "Labeling with our label included",
+          receptionPallet: "In/out at reception (pallet)",
+          receptionBox: "In/out per box for rack storage"
+        },
+        storage: {
+          pallet: "1 pallet",
+          rack: "1 rack (1m x 0.4m x 1.80m)"
+        },
+        processing: {
+          package: "per package"
+        },
+        currency: {
+          euro: "euro",
+          lei: "lei"
+        },
+        per: {
+          unit: "unit",
+          pallet: "pallet",
+          box: "box",
+          month: "month",
+          package: "package"
+        }
+      },
       stats: {
         deliveries: "integrated technologies",
         centers: "available services",

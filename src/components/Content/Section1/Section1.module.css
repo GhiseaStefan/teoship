@@ -1,192 +1,296 @@
 .section1 {
-    background: #FFF0CE;
+  background: white;
 }
 
-.logoContainer {
-    height: 145px;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
+/* Pricing Tabs Section */
+.pricingContainer {
+  padding: 3rem 2rem 0rem 2rem;
+  background: white;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
 }
 
-.logoScroll {
-    display: flex;
-    align-items: center;
-    animation: scroll-left 20s linear infinite;
-    width: fit-content;
-    height: 100%;
+.pricingTitle {
+  font-family: var(--font-secondary);
+  font-size: 2rem;
+  font-weight: var(--font-weight-bold);
+  color: #1f2937;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
-.logoItem {
-    flex-shrink: 0;
-    margin-right: 3rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.tabsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
 }
 
-.logoItem img {
-    width: 120px;
-    height: 60px;
-    object-fit: contain;
+.tab {
+  padding: 0.75rem 1.5rem;
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  font-weight: 600;
+  color: #6b7280;
+  background: #f3f4f6;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-@keyframes scroll-left {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-50%);
-    }
+.tab:hover {
+  background: #e5e7eb;
+  color: #3396d3;
+}
+
+.activeTab {
+  background: #3396d3;
+  color: white;
+  border-color: #3396d3;
+}
+
+.activeTab:hover {
+  background: #2a7ba8;
+}
+
+.pricingContent {
+  min-height: 280px;
+  height: auto;
+}
+
+.pricingList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  min-height: 280px;
+}
+
+.pricingItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem;
+  background: #f9fafb;
+  border-radius: 8px;
+  border-left: 4px solid #3396d3;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pricingItem:hover {
+  transform: translateX(5px);
+  box-shadow: 0 4px 12px rgba(51, 150, 211, 0.15);
+}
+
+.pricingLabel {
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  color: #1f2937;
+  flex: 1;
+  text-align: left;
+}
+
+.pricingValue {
+  font-family: var(--font-secondary);
+  font-size: 1.25rem;
+  font-weight: var(--font-weight-bold);
+  color: #3396d3;
+  white-space: nowrap;
+  margin-left: 1rem;
 }
 
 .text {
-    height: 611px;
-    padding: 4rem 2rem;
-    text-align: center;
-    background: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  height: 611px;
+  padding: 2rem 2rem 3rem 2rem;
+  text-align: center;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .title {
-    font-family: var(--font-secondary);
-    font-size: 2.5rem;
-    font-weight: var(--font-weight-bold);
-    color: #1f2937;
-    margin-bottom: 1rem;
-    line-height: 1.2;
+  font-family: var(--font-secondary);
+  font-size: 2.5rem;
+  font-weight: var(--font-weight-bold);
+  color: #1f2937;
+  margin-bottom: 1rem;
+  line-height: 1.2;
 }
 
 .subtitle {
-    font-family: var(--font-primary);
-    font-size: 1.125rem;
-    color: #6b7280;
-    margin-bottom: 3rem;
-    line-height: 1.5;
+  font-family: var(--font-primary);
+  font-size: 1.125rem;
+  color: #6b7280;
+  margin-bottom: 3rem;
+  line-height: 1.5;
 }
 
 .statsGrid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .statItem {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .statIcon {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .statNumber {
-    font-family: var(--font-secondary);
-    font-size: 3rem;
-    font-weight: var(--font-weight-bold);
-    color: #1f2937;
-    margin-bottom: 0.5rem;
-    line-height: 1;
+  font-family: var(--font-secondary);
+  font-size: 3rem;
+  font-weight: var(--font-weight-bold);
+  color: #1f2937;
+  margin-bottom: 0.5rem;
+  line-height: 1;
 }
 
 .statDescription {
-    font-family: var(--font-primary);
-    font-size: 0.875rem;
-    color: #3396D3;
-    line-height: 1.4;
-    max-width: 200px;
+  font-family: var(--font-primary);
+  font-size: 0.875rem;
+  color: #3396d3;
+  line-height: 1.4;
+  max-width: 200px;
 }
 
 /* Responsive design */
 @media (max-width: 768px) {
-    .logoContainer {
-        height: 100px;
-    }
+  .pricingContainer {
+    padding: 2.5rem 1.5rem;
+  }
 
-    .logoItem {
-        margin-right: 2rem;
-    }
+  .pricingTitle {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+  }
 
-    .logoItem img {
-        width: 80px;
-        height: 40px;
-    }
+  .tabsContainer {
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
 
-    .text {
-        height: auto;
-        padding: 3rem 1.5rem;
-    }
+  .tab {
+    padding: 0.875rem 1.5rem;
+    font-size: 1rem;
+  }
 
-    .title {
-        font-size: 2rem;
-        margin-bottom: 0.75rem;
-    }
-    
-    .subtitle {
-        font-size: 1rem;
-        margin-bottom: 2rem;
-    }
-    
-    .statsGrid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1.5rem;
-    }
-    
-    .statNumber {
-        font-size: 2.5rem;
-    }
+  .pricingItem {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 1.25rem;
+  }
 
-    .statDescription {
-        font-size: 0.8rem;
-        max-width: 150px;
-    }
+  .pricingLabel {
+    font-size: 1rem;
+  }
+
+  .pricingValue {
+    font-size: 1.25rem;
+    margin-left: 0;
+    align-self: flex-end;
+  }
+
+  .text {
+    height: auto;
+    padding: 2rem 1.5rem 2.5rem 1.5rem;
+  }
+
+  .title {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .statsGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .statNumber {
+    font-size: 2.5rem;
+  }
+
+  .statDescription {
+    font-size: 0.8rem;
+    max-width: 150px;
+  }
 }
 
 @media (max-width: 480px) {
-    .logoContainer {
-        height: 80px;
-    }
+  .pricingContainer {
+    padding: 2rem 1rem;
+  }
 
-    .logoItem {
-        margin-right: 1.5rem;
-    }
+  .pricingTitle {
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+  }
 
-    .logoItem img {
-        width: 60px;
-        height: 30px;
-    }
+  .tabsContainer {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
 
-    .text {
-        padding: 2rem 1rem;
-    }
+  .tab {
+    width: 100%;
+    padding: 0.875rem 1rem;
+  }
 
-    .title {
-        font-size: 1.75rem;
-        margin-bottom: 0.5rem;
-    }
-    
-    .subtitle {
-        font-size: 0.9rem;
-        margin-bottom: 1.5rem;
-    }
+  .pricingItem {
+    padding: 1rem;
+  }
 
-    .statsGrid {
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
+  .pricingLabel {
+    font-size: 0.9rem;
+  }
 
-    .statNumber {
-        font-size: 2rem;
-    }
+  .pricingValue {
+    font-size: 1.125rem;
+  }
 
-    .statDescription {
-        font-size: 0.75rem;
-        max-width: 200px;
-    }
+  .text {
+    padding: 2rem 1rem;
+  }
+
+  .title {
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .subtitle {
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .statsGrid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .statNumber {
+    font-size: 2rem;
+  }
+
+  .statDescription {
+    font-size: 0.75rem;
+    max-width: 200px;
+  }
 }
