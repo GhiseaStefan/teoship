@@ -167,7 +167,8 @@ export const translations = {
       contact: {
         title: "Contact",
         form: "Formular de contact",
-        phone: "+40 770 425 221"
+        phone: "+40 770 425 221",
+        email: "contact@teoship.ro"
       },
       bottom: {
         copyright: "©2025, teoship.ro. Toate drepturile rezervate.",
@@ -537,7 +538,8 @@ export const translations = {
       contact: {
         title: "Contact",
         form: "Contact form",
-        phone: "+40 770 425 221"
+        phone: "+40 770 425 221",
+        email: "contact@teoship.ro"
       },
       bottom: {
         copyright: "©2025, teoship.ro. All rights reserved.",

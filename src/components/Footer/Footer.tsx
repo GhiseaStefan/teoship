@@ -39,6 +39,7 @@ export default function Footer() {
                     <div className={styles.contact}>
                         <p><a href="/contact" className={styles.link}>{t('footer.contact.form')}</a></p>
                         <p><a href="tel:+40770425221" className={styles.link}>{t('footer.contact.phone')}</a></p>
+                        <p><a href={`mailto:${t('footer.contact.email')}`} className={styles.link}>{t('footer.contact.email')}</a></p>
                     </div>
                 </div>
             </div>
